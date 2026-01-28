@@ -21,7 +21,7 @@
 
 @media (min-width: 1024px) {
   :root {
-    --base-padding: 5rem; /* 80px - desktop */
+    --base-padding: 4rem; /* 80px - desktop */
   }
 }
 
