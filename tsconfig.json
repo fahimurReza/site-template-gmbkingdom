@@ -20,8 +20,11 @@
     ],
     "baseUrl": ".",
     "paths": {
+      "@/*": ["./*"],
       "@app/*": ["app/*"],
-      "@components/*": ["components/*"]
+      "@components/*": ["components/*"],
+      "@data/*": ["./data/*"],
+      "@types/*": ["./types/*"]
     }
   },
   "include": [
