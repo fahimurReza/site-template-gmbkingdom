@@ -50,7 +50,7 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         disabled={disabled}
         className={clsx(
           "inline-flex items-center justify-center",
-          "px-6 py-3",
+          "px-6 py-3 cursor-pointer",
           "font-semibold rounded-lg",
           "text-lg leading-tight",
           "transition-colors duration-200",

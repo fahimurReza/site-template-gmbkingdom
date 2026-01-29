@@ -5,6 +5,7 @@ import Image from "next/image";
 import Content from "./Content";
 import CallToAction from "./CallToAction";
 import TrackRecord from "./TrackRecord";
+import QuoteForm from "@/components/ui/QuoteForm";
 
 const heroImages = [
   {
@@ -54,7 +55,7 @@ export default function Hero() {
       ))}
 
       <div className="absolute inset-0 bg-linear-to-r from-teal-950 to-teal-950/70 -z-10" />
-      <div className="absolute inset-0 bg-linear-to-r from-black/60 to-black/10 -z-10" />
+      <div className="absolute inset-0 bg-linear-to-r from-black/60 via-black/10 to-black/10 -z-10" />
 
       <div className="grid grid-cols-2 base-padding">
         <div className="relative z-10 text-left py-8">
@@ -62,7 +63,9 @@ export default function Hero() {
           <CallToAction />
           <TrackRecord />
         </div>
-        <div>Quote Form</div>
+        <div className="flex justify-end relative z-10 py-8">
+          <QuoteForm />
+        </div>
       </div>
     </section>
   );
