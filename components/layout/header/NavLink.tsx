@@ -20,7 +20,7 @@ const NavLink = ({ item }: NavLinkProps) => {
       <a
         href={item.href}
         className={`
-          flex px-2 py-2 text-link in-[.dropdown-item]:hover:bg-emerald-100 
+          flex px-2 py-2 text-tx-theme in-[.dropdown-item]:hover:bg-emerald-100 
           in-[.dropdown-item]:px-4 ${hasChildren ? "cursor-default" : ""}
         `}
         onClick={(e) => hasChildren && e.preventDefault()}

@@ -55,7 +55,7 @@ const TextInput = forwardRef<
           <label
             htmlFor={inputId}
             className={clsx(
-              "block text-sm font-medium mb-3 text-gray-500",
+              "block text-sm font-medium mb-3 text-tx-secondary",
               labelClassName,
             )}
           >
@@ -74,7 +74,7 @@ const TextInput = forwardRef<
             "w-full px-3 py-2",
             "border border-gray-300 rounded-md",
             "bg-white/5 backdrop-blur-sm",
-            "text-white placeholder:text-gray-400 placeholder:text-sm",
+            "text-white placeholder:text-tx-secondary placeholder:text-sm",
             "transition-all duration-200",
             "focus:outline-none focus:border-orange-400 focus:ring-2 focus:ring-orange-300/50 focus:bg-white/10",
             "hover:border-gray-400/70 hover:bg-white/8",

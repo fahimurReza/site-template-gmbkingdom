@@ -8,8 +8,11 @@
   --bt-primary-hover: oklch(0.705 0.213 47.604); /* orange-500 */
   --bt-secondary: oklch(0.277 0.046 192.524); /* teal-950 */
   --bt-secondary-hover: oklch(0.386 0.063 188.416); /* teal-900 */
-  --link: oklch(0.277 0.046 192.524) /* teal-950 */;
-  --link-hover: oklch(0.646 0.222 41.116); /* orange-600 */
+  --tx-hyperlink: oklch(0.705 0.213 47.604); /* orange-500 */
+  --tx-hyperlink-hover: oklch(0.386 0.063 188.416); /* teal-900 */
+  --tx-primary: oklch(0.278 0.033 256.848); /* gray-800 */
+  --tx-secondary: oklch(0.551 0.027 264.364); /* gray-500 */
+  --tx-theme: oklch(0.277 0.046 192.524); /* teal-950 */
   --base-padding: 1rem; /* 16px - mobile */
 }
 
@@ -38,8 +41,11 @@
   --color-bt-primary-hover: var(--bt-primary-hover);
   --color-bt-secondary: var(--bt-secondary);
   --color-bt-secondary-hover: var(--bt-secondary-hover);
-  --color-link: var(--link);
-  --color-link-hover: var(--link-hover);
+  --color-tx-hyperlink: var(--tx-hyperlink);
+  --color-tx-hyperlink-hover: var(--tx-hyperlink-hover);
+  --color-tx-primary: var(--tx-primary);
+  --color-tx-secondary: var(--tx-secondary);
+  --color-tx-theme: var(--tx-theme);
 }
 
 html {

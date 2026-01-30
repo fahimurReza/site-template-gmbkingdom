@@ -1,7 +1,12 @@
 import { type ButtonHTMLAttributes, forwardRef } from "react";
 import clsx from "clsx";
 
-type ButtonVariant = "primary" | "secondary" | "transparent";
+type ButtonVariant =
+  | "primary"
+  | "secondary"
+  | "transparent"
+  | "whiteSmall"
+  | "secondarySmall";
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: ButtonVariant;
@@ -13,21 +18,35 @@ interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
 const variantStyles: Record<ButtonVariant, string> = {
   primary: `
     bg-bt-primary 
+    text-white px-6 py-3
     hover:bg-bt-primary-hover
-    active:bg-orange-800 
     border-orange-600/30
   `,
   secondary: `
     bg-bt-secondary
+    text-white px-6 py-3
     hover:bg-bt-secondary-hover
-    active:bg-teal-800 
     border-teal-800/40
   `,
   transparent: `
     bg-white/10 
+    text-white px-6 py-3
     border border-white/10 
     hover:bg-white/20 
-    active:bg-white/25
+  `,
+  whiteSmall: `
+    bg-white
+    px-3 py-2 w-34
+    text-tx-theme text-xs
+    hover:bg-gray-100
+    border border-gray-200
+  `,
+  secondarySmall: `
+    bg-bt-secondary
+    px-3 py-2 w-34
+    text-white text-xs
+    hover:bg-bt-secondary-hover
+    border-teal-800/40
   `,
 };
 
@@ -50,13 +69,12 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
         disabled={disabled}
         className={clsx(
           "inline-flex items-center justify-center",
-          "px-6 py-3 cursor-pointer",
+          "cursor-pointer",
           "font-semibold rounded-lg",
           "text-lg leading-tight",
           "transition-colors duration-200",
-          fullWidth ? "w-full" : "w-full sm:w-64",
+          fullWidth && "w-full",
           variantStyles[variant],
-          "text-white",
           disabled && "opacity-60 cursor-not-allowed",
           className,
         )}

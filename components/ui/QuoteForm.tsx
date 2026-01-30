@@ -4,9 +4,9 @@ import SelectInput from "./SelectInput";
 
 const QuoteForm = () => {
   return (
-    <div className="p-8 bg-white text-gray-800 rounded-2xl shadow-lg max-w-lg w-full h-auto">
+    <div className="p-8 bg-white text-tx-primary rounded-2xl shadow-lg max-w-lg w-full h-auto">
       <h2 className="text-3xl font-bold mb-4 text-center">Get a Free Quote</h2>
-      <p className="text-gray-500 text-sm">
+      <p className="text-tx-secondary text-sm">
         Share your project scope and we'll deliver a complete proposal within
         two business days.
       </p>
@@ -74,7 +74,7 @@ const QuoteForm = () => {
           Submit Request
         </Button>
       </form>
-      <p className="mt-4 text-sm text-gray-600 text-center">
+      <p className="mt-4 text-sm text-tx-secondary text-center">
         Average response time: about 2 hours during business hours. Need
         immediate help? Call us at 214-382-9350.
       </p>

@@ -42,7 +42,7 @@ const SelectInput = forwardRef<HTMLSelectElement, SelectInputProps>(
           <label
             htmlFor={selectId}
             className={clsx(
-              "block text-sm font-medium mb-3 text-gray-500",
+              "block text-sm font-medium mb-3 text-tx-secondary",
               labelClassName,
             )}
           >
@@ -60,8 +60,8 @@ const SelectInput = forwardRef<HTMLSelectElement, SelectInputProps>(
             className={clsx(
               "w-full px-4 py-2.5",
               "border border-gray-300 rounded-md",
-              "bg-white text-gray-900 text-sm",
-              "placeholder:text-gray-400 text-sm",
+              "bg-white text-tx-primary text-sm",
+              "placeholder:text-tx-secondary text-sm",
               "appearance-none",
               "transition-all duration-200",
               "focus:outline-none focus:border-orange-400 focus:ring-2 focus:ring-orange-300/40 focus:bg-white",
