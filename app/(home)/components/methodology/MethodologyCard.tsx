@@ -1,8 +1,8 @@
 import clsx from "clsx";
-import type { MethodologyStep } from "@/types/methodology";
+import type { Methodology } from "@/types/methodology";
 
 interface MethodologyCardProps {
-  step: MethodologyStep;
+  step: Methodology;
   className?: string;
 }
 
@@ -23,8 +23,14 @@ const MethodologyCard = ({ step, className }: MethodologyCardProps) => {
       )}
     >
       <div className="flex items-start gap-8">
-        <div className="relative">
-          <IconComponent />
+        <div className="relative group">
+          <div
+            className={`bg-brand-gray-bg p-4.5 rounded-2xl w-fit border-[5px] border-white 
+            shadow-md group-hover:bg-brand-orange group-hover:scale-110 duration-200`}
+          >
+            <IconComponent className="w-8 h-8 text-brand-gray-dark group-hover:text-white transition-colors" />
+          </div>
+
           {numberBadge && (
             <div
               className={`absolute -right-1 -top-1 flex h-7 w-7 items-center 

@@ -3,7 +3,7 @@ import { methodologies } from "@/data/methodologies";
 
 const Methodology = () => {
   return (
-    <main className="base-padding min-h-120 py-14">
+    <main className="base-padding min-h-120 py-16">
       <p className="text-sm font-semibold uppercase text-brand-orange mb-5 tracking-[2px]">
         Our Methodology
       </p>
