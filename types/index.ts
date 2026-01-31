@@ -1,2 +1,3 @@
 export * from "./navigation";
-export * from "./methodology-step";
+export * from "./methodology";
+export * from "./service";

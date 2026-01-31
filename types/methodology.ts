@@ -1,4 +1,4 @@
-export interface MethodologyStep {
+export interface Methodology {
   title: string;
   description: string;
   icon: React.ComponentType;

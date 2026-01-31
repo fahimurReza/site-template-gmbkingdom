@@ -1,9 +1,10 @@
 import ServiceButton from "@/components/ui/ServiceButton";
+import { service } from "@data/services";
 import ServiceCard from "./ServiceCard";
 
 const ServiceSection = () => {
   return (
-    <main className="base-padding bg-gray-100 min-h-120 pt-16 pb-20">
+    <main className="base-padding bg-brand-gray-bg min-h-120 pt-16 pb-20">
       <p className="text-sm font-semibold uppercase text-brand-orange mb-5 tracking-[2px]">
         COMMERCIAL & RESIDENTIAL
       </p>
@@ -20,12 +21,9 @@ const ServiceSection = () => {
         </div>
       </div>
       <div className="mt-16 grid grid-cols-3 gap-8">
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
-        <ServiceCard />
+        {service.map((item, index) => (
+          <ServiceCard key={index} service={item} />
+        ))}
       </div>
     </main>
   );

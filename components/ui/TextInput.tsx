@@ -60,7 +60,9 @@ const TextInput = forwardRef<
             )}
           >
             {label}
-            {required && <span className="text-orange-500 ml-1">*</span>}
+            {required && (
+              <span className="text-brand-orange-light ml-1">*</span>
+            )}
           </label>
         )}
 
@@ -77,7 +79,7 @@ const TextInput = forwardRef<
             "text-white placeholder:text-brand-gray-light placeholder:text-sm",
             "transition-all duration-200",
             "focus:outline-none focus:border-orange-400 focus:ring-2 focus:ring-orange-300/50 focus:bg-white/10",
-            "hover:border-gray-400/70 hover:bg-white/8",
+            "hover:border-brand-gray-light/70 hover:bg-white/8",
             disabled &&
               "opacity-60 cursor-not-allowed bg-gray-900/30 border-gray-700",
             error &&

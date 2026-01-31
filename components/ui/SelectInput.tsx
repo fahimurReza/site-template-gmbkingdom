@@ -47,7 +47,7 @@ const SelectInput = forwardRef<HTMLSelectElement, SelectInputProps>(
             )}
           >
             {label}
-            {required && <span className="text-orange-600 ml-1">*</span>}
+            {required && <span className="text-brand-orange ml-1">*</span>}
           </label>
         )}
 
@@ -65,9 +65,9 @@ const SelectInput = forwardRef<HTMLSelectElement, SelectInputProps>(
               "appearance-none",
               "transition-all duration-200",
               "focus:outline-none focus:border-orange-400 focus:ring-2 focus:ring-orange-300/50 focus:bg-white",
-              "hover:border-gray-400 hover:shadow-sm",
+              "hover:border-brand-gray-light hover:shadow-sm",
               disabled &&
-                "opacity-60 cursor-not-allowed bg-gray-100 border-gray-300",
+                "opacity-60 cursor-not-allowed bg-brand-gray-bg border-gray-300",
               error &&
                 "border-red-400 focus:border-red-400 focus:ring-red-300/40 bg-red-50/50",
               selectClassName,

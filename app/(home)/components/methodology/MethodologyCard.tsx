@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import type { MethodologyStep } from "@/types/methodology-step";
+import type { MethodologyStep } from "@/types/methodology";
 
 interface MethodologyCardProps {
   step: MethodologyStep;

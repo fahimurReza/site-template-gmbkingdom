@@ -1,10 +1,10 @@
-import type { MethodologyStep } from "@/types/methodology-step";
+import type { Methodology } from "@/types/methodology";
 import ShareIcon from "@/components/icons/ShareIcon";
 import PermitIcon from "@/components/icons/PermitIcon";
 import Professional from "@/components/icons/Professional";
 import CompleteIcon from "@/components/icons/CompleteIcon";
 
-export const methodologySteps: MethodologyStep[] = [
+export const methodologies: Methodology[] = [
   {
     title: "Share your scope",
     description:

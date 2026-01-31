@@ -20,7 +20,7 @@ const variantStyles: Record<ButtonVariant, string> = {
     bg-brand-orange 
     text-white px-6 py-3
     hover:bg-brand-orange-light
-    border-orange-600/30
+    border-brand-orange/30
   `,
   secondary: `
     bg-brand-teal
@@ -38,7 +38,7 @@ const variantStyles: Record<ButtonVariant, string> = {
     bg-white
     px-3 py-2 w-34
     text-tx-theme text-xs
-    hover:bg-gray-100
+    hover:bg-brand-gray-bg
     border border-gray-200
   `,
   secondarySmall: `

@@ -5,8 +5,8 @@ const Content = () => {
     <main>
       <div className="flex items-center gap-4 border border-white/20 rounded-full bg-white/10 px-4 py-1 text-xs tracking-[4px] font-semibold max-w-11/12">
         <span className="relative flex h-2.5 w-2.5">
-          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-orange-600 opacity-75"></span>
-          <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-orange-600"></span>
+          <span className="absolute inline-flex h-full w-full animate-ping rounded-full brand-orange opacity-75"></span>
+          <span className="relative inline-flex h-2.5 w-2.5 rounded-full brand-orange"></span>
         </span>
         FRISCO CONCRETE CONTRACTORS
       </div>

@@ -1,5 +1,5 @@
 import MethodologyCard from "./MethodologyCard";
-import { methodologySteps } from "@/data/methodology-steps";
+import { methodologies } from "@/data/methodologies";
 
 const Methodology = () => {
   return (
@@ -18,7 +18,7 @@ const Methodology = () => {
       </div>
       <div>
         <div className="mt-14 space-y-16 md:space-y-20 lg:space-y-12">
-          {methodologySteps.map((step, index) => (
+          {methodologies.map((step, index) => (
             <MethodologyCard key={index} step={step} />
           ))}
         </div>
