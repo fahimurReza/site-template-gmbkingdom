@@ -7,24 +7,26 @@ interface ServiceCardProps {
   className?: string;
 }
 
-export default function ServiceCard({ service, className }: ServiceCardProps) {
-  const {
-    icon: IconComponent,
-    title,
-    description,
-    features,
-    className: serviceClassName,
-  } = service;
+const ServiceCard = ({ service, className }: ServiceCardProps) => {
+  const { icon: IconComponent, title, description, features } = service;
   return (
     <main
       className={clsx(
-        "bg-white px-8 py-10 rounded-2xl shadow-md group hover:-translate-y-2 transition-transform duration-300",
-        serviceClassName,
+        "bg-white px-8 py-10 rounded-2xl shadow-md group hover:-translate-y-2",
+        "transition-transform duration-300",
         className,
       )}
     >
-      <div className="flex justify-start items-start">
-        <IconComponent />
+      <div
+        className={clsx(
+          "flex justify-start items-start bg-brand-gray-bg p-3 rounded-xl",
+          "w-fit shadow-md duration-200 group-hover:bg-brand-orange",
+        )}
+      >
+        <IconComponent
+          className={`h-8 w-8 text-brand-gray-dark group-hover:text-white 
+          transition-colors duration-300`}
+        />
       </div>
 
       <h2 className="text-2xl font-bold text-tx-theme mt-10">{title}</h2>
@@ -48,4 +50,6 @@ export default function ServiceCard({ service, className }: ServiceCardProps) {
       </div>
     </main>
   );
-}
+};
+
+export default ServiceCard;

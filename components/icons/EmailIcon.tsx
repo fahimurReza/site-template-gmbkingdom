@@ -11,8 +11,8 @@ const EmailIcon = ({ className }: EmailIconProps) => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M400 498.96L0 145.959V600H800V145.959L400 498.96ZM400.04 392.48L0 39.2407V0H800V39.2407L400.04 392.48Z"
         fill="currentColor"
       />

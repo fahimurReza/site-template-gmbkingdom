@@ -1,6 +1,6 @@
 import CallButton from "@/components/ui/CallButton";
 import Button from "@/components/ui/Button";
-import PhoneIcon02 from "@/components/icons/PhoneIcon02";
+import PhoneIcon from "@/components/icons/PhoneIcon";
 import EmailIcon from "@/components/icons/EmailIcon";
 import LocationIcon from "@/components/icons/LocationIcon";
 
@@ -40,7 +40,7 @@ const ReadyTo = () => {
           className="mt-8 flex gap-6 items-start group cursor-pointer"
         >
           <div className="p-3 bg-white/20 rounded-xl">
-            <PhoneIcon02 className=" w-7 aspect-square rotate-90 group-hover:text-brand-orange transition-colors duration-300" />
+            <PhoneIcon className=" w-7 aspect-square rotate-90 group-hover:text-brand-orange transition-colors duration-300" />
           </div>
           <div className="items-center content-center">
             <h2 className="uppercase text-[10px] font-semibold tracking-[2px]">

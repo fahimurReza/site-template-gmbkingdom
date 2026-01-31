@@ -1,8 +1,8 @@
-interface PhoneIcon02Props {
+interface PhoneIconProps {
   className?: string;
 }
 
-const PhoneIcon02 = ({ className }: PhoneIcon02Props) => {
+const PhoneIcon = ({ className }: PhoneIconProps) => {
   return (
     <svg
       className={className}
@@ -18,4 +18,4 @@ const PhoneIcon02 = ({ className }: PhoneIcon02Props) => {
   );
 };
 
-export default PhoneIcon02;
+export default PhoneIcon;

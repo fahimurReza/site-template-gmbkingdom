@@ -1,9 +1,10 @@
-const ResurfacingIcon = () => {
+interface ResurfacingIconProps {
+  className?: string;
+}
+
+const ResurfacingIcon = ({ className }: ResurfacingIconProps) => {
   return (
-    <main
-      className={`bg-brand-gray-bg p-3 rounded-xl w-fit shadow-md duration-200
-        group-hover:bg-brand-orange`}
-    >
+    <main className={className}>
       <svg
         className="h-8 w-8 text-brand-gray-dark group-hover:text-white transition-colors duration-300"
         viewBox="0 0 800 800"

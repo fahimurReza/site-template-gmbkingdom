@@ -1,9 +1,10 @@
-const StampedIcon = () => {
+interface StampedIconProps {
+  className?: string;
+}
+
+const StampedIcon = ({ className }: StampedIconProps) => {
   return (
-    <main
-      className={`bg-brand-gray-bg p-3 rounded-xl w-fit shadow-md duration-200
-        group-hover:bg-brand-orange`}
-    >
+    <main className={className}>
       <svg
         className="h-8 w-8 text-brand-gray-dark group-hover:text-white transition-colors duration-300"
         viewBox="0 0 1024 1024"
