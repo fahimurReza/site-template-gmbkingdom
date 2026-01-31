@@ -3,10 +3,13 @@ import CheckCircle from "@components/common/CheckCircle";
 const Content = () => {
   return (
     <main>
-      <div className="flex items-center gap-4 border border-white/20 rounded-full bg-white/10 px-4 py-1 text-xs tracking-[4px] font-semibold max-w-11/12">
+      <div
+        className={`flex items-center gap-4 border border-white/20 rounded-full
+         bg-white/10 px-6 py-1 text-xs tracking-[3px] font-semibold w-fit uppercase`}
+      >
         <span className="relative flex h-2.5 w-2.5">
-          <span className="absolute inline-flex h-full w-full animate-ping rounded-full brand-orange opacity-75"></span>
-          <span className="relative inline-flex h-2.5 w-2.5 rounded-full brand-orange"></span>
+          <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-orange opacity-75"></span>
+          <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-brand-orange"></span>
         </span>
         FRISCO CONCRETE CONTRACTORS
       </div>
