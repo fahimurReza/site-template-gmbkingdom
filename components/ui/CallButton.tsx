@@ -32,8 +32,8 @@ export default function CallButton({
       className={`
         w-full sm:w-64
         px-6 py-3
-        bg-bt-primary text-white font-semibold rounded-lg
-        hover:bg-bt-primary-hover transition
+        bg-brand-orange text-white font-semibold rounded-lg
+        hover:bg-brand-orange-light transition
         flex items-center justify-center gap-3 text-lg
         ${className}
       `}

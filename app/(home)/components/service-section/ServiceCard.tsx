@@ -16,11 +16,11 @@ const ServiceCard = () => {
       <h2 className="text-2xl font-bold text-tx-theme mt-4">
         Patio Construction
       </h2>
-      <h2 className="text-tx-secondary text-sm mt-3">
+      <h2 className="text-brand-gray text-sm mt-3">
         Engineered foundations for commercial and industrial structures across
         North Texas.
       </h2>
-      <ul className="mt-5 space-y-3 text-xs text-tx-secondary">
+      <ul className="mt-5 space-y-3 text-xs text-brand-gray">
         <li className="flex items-start gap-3 font-medium">
           <div className="mt-1 flex h-2 w-2 shrink-0 rounded-full bg-orange-600/40"></div>
           <span>Mat, spread, and pier-supported systems</span>

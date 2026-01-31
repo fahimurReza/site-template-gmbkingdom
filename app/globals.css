@@ -1,19 +1,17 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
   --foreground: #171717;
-  --primary: oklch(0.277 0.046 192.524); /* teal-950 */
-  --bt-primary: oklch(0.646 0.222 41.116); /* orange-600 */
-  --bt-primary-hover: oklch(0.705 0.213 47.604); /* orange-500 */
-  --bt-secondary: oklch(0.277 0.046 192.524); /* teal-950 */
-  --bt-secondary-hover: oklch(0.386 0.063 188.416); /* teal-900 */
-  --tx-hyperlink: oklch(0.705 0.213 47.604); /* orange-500 */
-  --tx-hyperlink-hover: oklch(0.386 0.063 188.416); /* teal-900 */
-  --tx-primary: oklch(0.278 0.033 256.848); /* gray-800 */
-  --tx-secondary: oklch(0.551 0.027 264.364); /* gray-500 */
-  --tx-theme: oklch(0.277 0.046 192.524); /* teal-950 */
+  --background: #ffffff;
   --base-padding: 1rem; /* 16px - mobile */
+  --brand-teal: oklch(0.277 0.046 192.524); /* teal-950 – dark base */
+  --brand-teal-light: oklch(0.386 0.063 188.416); /* teal-900  – hover/button */
+  --brand-orange: oklch(0.646 0.222 41.116); /* orange-600 – main accent */
+  --brand-orange-light: oklch(0.705 0.213 47.604); /* orange-500 – hover */
+  --brand-gray: oklch(0.446 0.03 256.802); /* gray-600 – subtitle text */
+  --brand-gray-light: oklch(0.707 0.022 261.325); /* gray-400 – light text */
+  --brand-gray-dark: oklch(0.278 0.033 256.848); /* gray-800 – main text */
+  --brand-gray-bg: oklch(0.967 0.003 264.542); /* gray-100 – backgrounds */
 }
 
 @media (min-width: 640px) {
@@ -34,18 +32,16 @@
 }
 
 @theme inline {
-  --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --color-primary: var(--primary);
-  --color-bt-primary: var(--bt-primary);
-  --color-bt-primary-hover: var(--bt-primary-hover);
-  --color-bt-secondary: var(--bt-secondary);
-  --color-bt-secondary-hover: var(--bt-secondary-hover);
-  --color-tx-hyperlink: var(--tx-hyperlink);
-  --color-tx-hyperlink-hover: var(--tx-hyperlink-hover);
-  --color-tx-primary: var(--tx-primary);
-  --color-tx-secondary: var(--tx-secondary);
-  --color-tx-theme: var(--tx-theme);
+  --color-background: var(--background);
+  --color-brand-teal: var(--brand-teal);
+  --color-brand-teal-light: var(--brand-teal-light);
+  --color-brand-orange: var(--brand-orange);
+  --color-brand-orange-light: var(--brand-orange-light);
+  --color-brand-gray: var(--brand-gray);
+  --color-brand-gray-light: var(--brand-gray-light);
+  --color-brand-gray-dark: var(--brand-gray-dark);
+  --color-brand-gray-bg: var(--brand-gray-bg);
 }
 
 html {

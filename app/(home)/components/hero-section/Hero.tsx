@@ -57,13 +57,13 @@ export default function Hero() {
       <div className="absolute inset-0 bg-linear-to-r from-teal-950 to-teal-950/70 -z-10" />
       <div className="absolute inset-0 bg-linear-to-r from-black/60 via-black/10 to-black/10 -z-10" />
 
-      <div className="grid grid-cols-2 base-padding">
-        <div className="relative z-10 text-left py-8">
+      <div className="grid grid-cols-2 base-padding py-12">
+        <div className="relative z-10 text-left">
           <Content />
           <CallToAction />
           <TrackRecord />
         </div>
-        <div className="flex justify-end relative z-10 py-8">
+        <div className="flex justify-end relative z-10">
           <QuoteForm />
         </div>
       </div>
