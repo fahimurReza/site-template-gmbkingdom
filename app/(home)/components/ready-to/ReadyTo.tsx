@@ -28,6 +28,7 @@ const ReadyTo = () => {
         <CallButton
           phoneNumber="(469) 535-6405"
           buttonText="Get a Direct Quote"
+          iconClassName="rotate-90"
         />
         <Button variant="transparent" className="w-68">
           Learn More

@@ -6,7 +6,7 @@ import StampedIcon from "@/components/icons/StampedIcon";
 import FoundationIcon from "@/components/icons/FoundationIcon";
 import ResurfacingIcon from "@/components/icons/ResurfacingIcon";
 
-export const service: Service[] = [
+export const services: Service[] = [
   {
     icon: PatioIcon,
     title: "Patio Construction",
@@ -18,6 +18,7 @@ export const service: Service[] = [
       "Thermal control plans for large placements",
     ],
     className: "",
+    path: "",
   },
   {
     icon: DrivewayIcon,
@@ -30,6 +31,7 @@ export const service: Service[] = [
       "Thermal control plans for large placements",
     ],
     className: "",
+    path: "",
   },
   {
     icon: SidewalkIcon,
@@ -42,6 +44,7 @@ export const service: Service[] = [
       "Thermal control plans for large placements",
     ],
     className: "",
+    path: "",
   },
   {
     icon: StampedIcon,
@@ -54,6 +57,7 @@ export const service: Service[] = [
       "Thermal control plans for large placements",
     ],
     className: "",
+    path: "",
   },
   {
     icon: FoundationIcon,
@@ -66,6 +70,7 @@ export const service: Service[] = [
       "Thermal control plans for large placements",
     ],
     className: "",
+    path: "",
   },
   {
     icon: ResurfacingIcon,
@@ -78,5 +83,6 @@ export const service: Service[] = [
       "Thermal control plans for large placements",
     ],
     className: "",
+    path: "",
   },
 ];

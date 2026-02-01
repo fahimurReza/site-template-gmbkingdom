@@ -1,5 +1,5 @@
 import ServiceButton from "@/components/ui/ServiceButton";
-import { service } from "@data/services";
+import { services } from "@data/services";
 import ServiceCard from "./ServiceCard";
 
 const ServiceSection = () => {
@@ -21,8 +21,8 @@ const ServiceSection = () => {
         </div>
       </div>
       <div className="mt-16 grid grid-cols-3 gap-8">
-        {service.map((item, index) => (
-          <ServiceCard key={index} service={item} />
+        {services.map((service, index) => (
+          <ServiceCard key={index} service={service} />
         ))}
       </div>
     </main>

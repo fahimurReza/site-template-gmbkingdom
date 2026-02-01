@@ -1,0 +1,43 @@
+import PhoneCircleIcon from "@/components/icons/PhoneCircleIcon";
+import LocationIcon from "@/components/icons/LocationIcon";
+import ClockIcon from "@/components/icons/ClockIcon";
+
+const ContactInfo = () => {
+  return (
+    <div className="mt-18">
+      <a
+        href="tel:+13332343454"
+        className="mt-6 flex gap-6 items-center group cursor-pointer hover:scale-110 duration-200"
+      >
+        <PhoneCircleIcon className="w-7 aspect-square" />
+
+        <div className="items-center content-center">
+          <p className="text-[18px] font-medium">333-234-3454</p>
+        </div>
+      </a>
+
+      <a className="mt-6 flex gap-6 items-center group cursor-pointer hover:scale-110 duration-200">
+        <LocationIcon className="w-7 aspect-square" />
+
+        <div className="items-center content-center">
+          <p className="text-[16px] font-medium">
+            279 Main St, Suite 128,
+            <br /> Frisco, TX 75034
+          </p>
+        </div>
+      </a>
+      <a className="mt-6 flex gap-6 items-center group cursor-pointer hover:scale-110 duration-200">
+        <ClockIcon className="w-7 aspect-square" />
+
+        <div className="items-center content-center">
+          <p className="text-[16px] font-medium">
+            Monday to Saturday
+            <br /> 8:00 AM to 6:00 PM
+          </p>
+        </div>
+      </a>
+    </div>
+  );
+};
+
+export default ContactInfo;

@@ -4,4 +4,5 @@ export interface Service {
   description: string;
   features: string[];
   className?: string;
+  path: string;
 }
