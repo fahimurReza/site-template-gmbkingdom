@@ -3,3 +3,8 @@ export interface Price {
   price: string;
   includes: string;
 }
+
+export interface Factor {
+  factor: string;
+  description: string;
+}
