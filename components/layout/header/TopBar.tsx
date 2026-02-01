@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const TopBar = () => {
   return (
-    <div className="base-padding bg-brand-teal font-medium text-sm text-white h-8 flex justify-between items-center">
+    <div className="base-padding bg-brand-teal font-medium text-sm text-white h-10 flex justify-between items-center">
       <p>Commercial & Residential Concrete</p>
       <div className="flex items-center cursor-pointer">
         <Image

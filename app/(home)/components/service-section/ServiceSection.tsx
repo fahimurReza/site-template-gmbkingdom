@@ -9,7 +9,7 @@ const ServiceSection = () => {
         COMMERCIAL & RESIDENTIAL
       </p>
       <h1 className="text-5xl font-bold text-brand-teal">
-        Turnkey Concrete Solutions
+        Frisco Concrete Solutions
       </h1>
       <div className="flex justify-between">
         <p className="text-lg text-brand-gray mt-5 max-w-3xl">

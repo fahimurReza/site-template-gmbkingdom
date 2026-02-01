@@ -18,7 +18,7 @@ const ReadyTo = () => {
         Direct contacts available
       </div>
       <h2 className="mt-8 text-[56px] font-semibold leading-18">
-        Ready to work with a turnkey concrete contractor?
+        Ready to work with a Frisco Concrete Contractor?
       </h2>
       <p className="text-xl mt-6 max-w-3xl">
         No middleman. No subcontractor markup. Get a complete proposal for your

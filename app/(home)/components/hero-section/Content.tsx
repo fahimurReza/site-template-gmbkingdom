@@ -13,8 +13,8 @@ const Content = () => {
         </span>
         FRISCO CONCRETE CONTRACTORS
       </div>
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold my-10 leading-16">
-        Turnkey commercial concrete for Dallas-Fort Worth
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold my-10 leading-18">
+        Proffesional Concrete Service for Dallas-Fort Worth
       </h1>
       <p className="text-2xl">
         One contract. One team. Full accountability from bid to final punch.
