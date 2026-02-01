@@ -17,10 +17,10 @@ const ReadyTo = () => {
         </span>
         Direct contacts available
       </div>
-      <h2 className="mt-8 text-6xl font-semibold leading-18">
+      <h2 className="mt-8 text-[56px] font-semibold leading-18">
         Ready to work with a turnkey concrete contractor?
       </h2>
-      <p className="text-2xl mt-6 max-w-3xl">
+      <p className="text-xl mt-6 max-w-3xl">
         No middleman. No subcontractor markup. Get a complete proposal for your
         residential or commercial concrete project within 48 hours.
       </p>

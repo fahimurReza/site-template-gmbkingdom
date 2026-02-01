@@ -4,7 +4,11 @@ import Button from "@/components/ui/Button";
 const CallToAction = () => {
   return (
     <div className="flex gap-10 mt-14">
-      <CallButton phoneNumber="(469) 535-6405" />
+      <CallButton
+        className="w-64"
+        iconClassName="rotate-90"
+        phoneNumber="(469) 535-6405"
+      />
       <Button variant="transparent" className="w-68">
         Learn More
       </Button>

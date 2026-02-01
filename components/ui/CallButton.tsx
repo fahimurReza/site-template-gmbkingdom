@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import PhoneIcon from "@/components/common/PhoneIcon";
 import { ComponentPropsWithoutRef } from "react";
 
@@ -12,8 +13,8 @@ interface CallButtonProps extends Omit<ComponentPropsWithoutRef<"a">, "href"> {
 export default function CallButton({
   phoneNumber,
   buttonText,
-  iconClassName = "w-5 h-5 rotate-90",
-  className = "",
+  iconClassName,
+  className,
   countryCode = "+1",
   ...anchorProps
 }: CallButtonProps) {
@@ -29,14 +30,12 @@ export default function CallButton({
   return (
     <a
       href={telLink}
-      className={`
-        w-full sm:w-64
-        px-6 py-3
-        bg-brand-orange text-white font-semibold rounded-lg
-        hover:bg-brand-orange-light transition
-        flex items-center justify-center gap-3 text-lg
-        ${className}
-      `}
+      className={clsx(
+        "px-6 py-3 bg-brand-orange text-white font-semibold",
+        "hover:bg-brand-orange-light transition",
+        "flex items-center justify-center gap-3 text-lg rounded-lg",
+        className,
+      )}
       {...anchorProps}
     >
       <div className="flex items-center gap-3">

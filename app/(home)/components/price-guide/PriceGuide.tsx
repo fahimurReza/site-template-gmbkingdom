@@ -1,5 +1,6 @@
 import PriceCard from "./PriceCard";
 import FactorCard from "./FactorCard";
+
 const PriceGuide = () => {
   return (
     <main className="base-padding py-18 bg-brand-gray-bg min-h-160">
