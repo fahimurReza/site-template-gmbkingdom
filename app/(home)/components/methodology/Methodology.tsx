@@ -7,7 +7,7 @@ const Methodology = () => {
       <p className="text-sm font-semibold uppercase text-brand-orange mb-5 tracking-[2px]">
         Our Methodology
       </p>
-      <h1 className="text-5xl font-bold text-tx-theme">
+      <h1 className="text-5xl font-bold text-brand-teal">
         Delivery from start to finish
       </h1>
       <div className="flex justify-between">
