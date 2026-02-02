@@ -7,7 +7,7 @@ const DirectQuote = () => {
       <div className="rounded-2xl shadow-2xl px-9 py-7 bg-white">
         <div className="grid grid-cols-6 items-start">
           <div className="col-span-3">
-            <h2 className="text-2xl font-semibold text-brand-teal">
+            <h2 className="text-3xl font-bold text-brand-teal">
               Get a direct quote now
             </h2>
             <p className="mt-2 text-brand-gray max-w-2xl">

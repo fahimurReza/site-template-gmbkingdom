@@ -28,7 +28,7 @@ export default function Hero() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % heroImages.length);
-    }, 2000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, []);
@@ -54,7 +54,7 @@ export default function Hero() {
         </div>
       ))}
 
-      <div className="absolute inset-0 bg-linear-to-r from-brand-teal to-brand-teal/70 -z-10" />
+      <div className="absolute inset-0 bg-linear-to-r from-brand-teal to-brand-teal/60 -z-10" />
       <div className="absolute inset-0 bg-linear-to-r from-black/60 via-black/10 to-black/10 -z-10" />
 
       <div className="grid grid-cols-2 base-padding py-12">
