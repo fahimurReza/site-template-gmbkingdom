@@ -18,14 +18,14 @@ const NavLink = ({ item }: NavLinkProps) => {
       onMouseLeave={() => hasChildren && setIsOpen(false)}
     >
       <a
-        href={item.href}
+        href={item.path}
         className={`
           flex px-2 py-2 text-tx-theme in-[.dropdown-item]:hover:bg-emerald-100 
           in-[.dropdown-item]:px-4 ${hasChildren ? "cursor-default" : ""}
         `}
         onClick={(e) => hasChildren && e.preventDefault()}
       >
-        {item.label}
+        {item.title}
         {hasChildren && <DropDown />}
       </a>
 
@@ -36,7 +36,7 @@ const NavLink = ({ item }: NavLinkProps) => {
             border border-gray-200  pt-2 pb-3 animate-fade-in dropdown-item"
         >
           {item.children!.map((child) => (
-            <NavLink key={child.label} item={child} />
+            <NavLink key={child.title} item={child} />
           ))}
         </div>
       )}

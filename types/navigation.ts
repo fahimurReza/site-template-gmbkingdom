@@ -1,5 +1,5 @@
 export interface NavItem {
-  label: string;
-  href?: string;
+  title: string;
+  path?: string;
   children?: NavItem[];
 }
