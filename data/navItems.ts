@@ -8,7 +8,7 @@ export const navItems: NavItem[] = [
       { title: "Concrete Patio", path: "/services/patio" },
       { title: "Concrete Driveway", path: "/services/driveway" },
       { title: "Concrete Sidewalk", path: "/services/sidewalk" },
-      { title: "Stamped Concrete", path: "/services/concrete" },
+      { title: "Stamped Concrete", path: "/services/stamped" },
       {
         title: "Foundation Construction",
         path: "/services/foundation",

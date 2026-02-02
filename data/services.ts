@@ -10,6 +10,7 @@ export const services: Service[] = [
   {
     icon: PatioIcon,
     title: "Patio Construction",
+    path: "/services/patio",
     description:
       "Engineered foundations for commercial and industrial structures across North Texas.",
     features: [
@@ -18,11 +19,11 @@ export const services: Service[] = [
       "Thermal control plans for large placements",
     ],
     className: "",
-    path: "",
   },
   {
     icon: DrivewayIcon,
     title: "Concrete Driveway",
+    path: "/services/driveway",
     description:
       "Engineered foundations for commercial and industrial structures across North Texas.",
     features: [
@@ -31,11 +32,11 @@ export const services: Service[] = [
       "Thermal control plans for large placements",
     ],
     className: "",
-    path: "",
   },
   {
     icon: SidewalkIcon,
     title: "Concrete Sidewalk",
+    path: "/services/sidewalk",
     description:
       "Engineered foundations for commercial and industrial structures across North Texas.",
     features: [
@@ -44,11 +45,11 @@ export const services: Service[] = [
       "Thermal control plans for large placements",
     ],
     className: "",
-    path: "",
   },
   {
     icon: StampedIcon,
     title: "Stamped Concrete",
+    path: "/services/stamped",
     description:
       "Engineered foundations for commercial and industrial structures across North Texas.",
     features: [
@@ -57,11 +58,11 @@ export const services: Service[] = [
       "Thermal control plans for large placements",
     ],
     className: "",
-    path: "",
   },
   {
     icon: FoundationIcon,
     title: "Foundation Construction",
+    path: "/services/foundation",
     description:
       "Engineered foundations for commercial and industrial structures across North Texas.",
     features: [
@@ -70,11 +71,11 @@ export const services: Service[] = [
       "Thermal control plans for large placements",
     ],
     className: "",
-    path: "",
   },
   {
     icon: ResurfacingIcon,
     title: "Concrete Resurfacing",
+    path: "/services/resurfacing",
     description:
       "Engineered foundations for commercial and industrial structures across North Texas.",
     features: [
@@ -83,6 +84,5 @@ export const services: Service[] = [
       "Thermal control plans for large placements",
     ],
     className: "",
-    path: "",
   },
 ];
