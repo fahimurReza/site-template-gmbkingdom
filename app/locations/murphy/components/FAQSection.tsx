@@ -25,7 +25,7 @@ const FAQSection = () => {
     },
   ];
   return (
-    <section className="py-4">
+    <section className="pt-8">
       <div className="rounded-2xl min-h-100 shadow-2xl px-9 py-7 bg-gray-50">
         <h2 className="text-2xl font-semibold text-brand-teal">
           Frequently Asked Questions

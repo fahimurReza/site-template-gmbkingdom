@@ -22,9 +22,7 @@ const HeroSection = () => {
           Frisco Concrete Contractor
         </p>
         <h2 className="text-left text-[42px] font-semibold">Concrete Patio</h2>
-        <p className="">
-          Complete concrete patio including striping, ADA, and drainage.
-        </p>
+        <p>Complete concrete patio including striping, ADA, and drainage.</p>
       </div>
     </section>
   );

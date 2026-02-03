@@ -1,6 +1,6 @@
 const FullProject = () => {
   return (
-    <section className="py-4 ">
+    <section className="pt-4 ">
       <div className="rounded-2xl shadow-2xl px-9 py-7 bg-gray-50">
         <h2 className="text-2xl font-semibold text-brand-teal">
           Full Project Coordination

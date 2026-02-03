@@ -3,7 +3,7 @@ import CallButton from "@/components/ui/CallButton";
 
 const DirectQuote = () => {
   return (
-    <section className="pt-4 pb-8">
+    <section className="pt-8 pb-10">
       <div className="rounded-2xl shadow-2xl px-9 py-7 bg-white">
         <div className="grid grid-cols-6 items-start">
           <div className="col-span-3">
