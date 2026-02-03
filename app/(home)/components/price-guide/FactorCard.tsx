@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { factors } from "@/data/prices";
+import { factors } from "@/data";
 
 interface FactorCardProps {
   className?: string;

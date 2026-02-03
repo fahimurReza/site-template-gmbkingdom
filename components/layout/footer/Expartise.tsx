@@ -1,5 +1,5 @@
 import RightArrow from "@/components/icons/RightArrow";
-import { services } from "@data/services";
+import { services } from "@/data";
 
 const Expartise = () => {
   return (

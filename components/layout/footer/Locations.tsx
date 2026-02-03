@@ -1,4 +1,4 @@
-import { locations } from "@/data/locations";
+import { locations } from "@/data";
 import RightArrow from "@/components/icons/RightArrow";
 
 const Locations = () => {

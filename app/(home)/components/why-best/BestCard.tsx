@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { bestcards } from "@/data/best-cards";
+import { bestcards } from "@/data";
 
 const BestCard = () => {
   return (

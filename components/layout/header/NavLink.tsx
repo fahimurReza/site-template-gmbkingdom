@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import type { NavItem } from "@/types/navigation";
+import type { NavItem } from "@/types";
 import DropDown from "@/components/common/DropDown";
 
 interface NavLinkProps {

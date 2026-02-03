@@ -1,5 +1,5 @@
 import MethodologyCard from "./MethodologyCard";
-import { methodologies } from "@/data/methodologies";
+import { methodologies } from "@/data";
 
 const Methodology = () => {
   return (

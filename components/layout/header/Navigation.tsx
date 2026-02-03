@@ -1,4 +1,4 @@
-import { navItems } from "@/data/navItems";
+import { navItems } from "@/data";
 import NavLink from "./NavLink";
 
 const Navigation = () => {

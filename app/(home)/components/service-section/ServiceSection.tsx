@@ -1,5 +1,5 @@
 import ServiceButton from "@/components/ui/ServiceButton";
-import { services } from "@data/services";
+import { services } from "@/data";
 import ServiceCard from "./ServiceCard";
 
 const ServiceSection = () => {

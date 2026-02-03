@@ -1,4 +1,4 @@
-import { Location } from "@/types/location";
+import { Location } from "@/types/footer";
 
 export const locations: Location[] = [
   { title: "Frisco, TX", path: "/locations/frisco-tx" },

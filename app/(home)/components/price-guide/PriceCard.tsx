@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { prices } from "@/data/prices";
+import { prices } from "@/data";
 
 interface PriceCardProps {
   className?: string;
