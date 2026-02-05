@@ -2,14 +2,17 @@ import Button from "./Button";
 import TextInput from "./TextInput";
 import SelectInput from "./SelectInput";
 
-const QuoteForm = () => {
+interface QuoteFormProps {
+  title: string;
+  subtitle: string;
+}
+
+const QuoteForm = ({ title, subtitle }: QuoteFormProps) => {
   return (
     <div className="p-8 bg-white text-brand-gray-dark rounded-2xl shadow-lg max-w-lg w-full h-auto">
-      <h2 className="text-3xl font-bold mb-4 text-center">Get a Free Quote</h2>
-      <p className="text-brand-gray text-sm">
-        Share your project scope and we'll deliver a complete proposal within
-        two business days.
-      </p>
+      <h2 className="text-3xl font-bold mb-4 text-center">{title}</h2>
+      <p className="text-brand-gray text-sm">{subtitle}</p>
+
       <form className="my-8">
         <div className="grid grid-cols-2 gap-x-6">
           <TextInput label="Name" type="text" placeholder="John Doe" required />
@@ -44,23 +47,20 @@ const QuoteForm = () => {
             ]}
             placeholder="Select a timeline"
           />
-
           <SelectInput
             label="Project Type"
             options={[
-              {
-                value: "project_type...",
-                label: "Select Project Type...",
-              },
+              { value: "project_type...", label: "Select Project Type..." },
               { value: "commercial", label: "Commercial" },
               { value: "residential", label: "Residential" },
               { value: "industrial", label: "Industrial" },
               { value: "multi_family", label: "Multi-Family" },
               { value: "other", label: "Other" },
             ]}
-            placeholder="Select a timeline"
+            placeholder="Select a project type"
           />
         </div>
+
         <TextInput
           label="Project Description"
           type="text"
@@ -74,6 +74,7 @@ const QuoteForm = () => {
           Submit Request
         </Button>
       </form>
+
       <p className="mt-4 text-sm text-brand-gray text-center">
         Average response time: about 2 hours during business hours. Need
         immediate help? Call us at 214-382-9350.

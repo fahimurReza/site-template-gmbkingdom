@@ -64,7 +64,10 @@ export default function Hero() {
           <TrackRecord />
         </div>
         <div className="flex justify-end relative z-10">
-          <QuoteForm />
+          <QuoteForm
+            title="Get a Free Quote"
+            subtitle="Share your project scope and we'll deliver a complete proposal within two business days."
+          />
         </div>
       </div>
     </section>
