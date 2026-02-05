@@ -17,7 +17,7 @@ const DropDown = ({ isOpen = false, mobile = false }: DropDownProps) => {
         className={clsx(
           "ml-2 transition-transform duration-300 ease-in-out",
           isOpen ? "rotate-180" : "rotate-0",
-          mobile && "h-5 w-5", // slightly larger on mobile
+          mobile && "h-4 w-4", // slightly larger on mobile
         )}
       />
     </div>
