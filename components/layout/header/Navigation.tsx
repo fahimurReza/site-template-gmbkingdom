@@ -12,7 +12,7 @@ const Navigation = ({ mobile = false, onClose }: NavigationProps) => {
     <nav
       className={clsx(
         mobile
-          ? "flex flex-col gap-3 text-sm font-semibold"
+          ? "flex flex-col text-sm font-semibold"
           : "mr-4 flex items-center space-x-4 text-sm font-medium",
       )}
     >
