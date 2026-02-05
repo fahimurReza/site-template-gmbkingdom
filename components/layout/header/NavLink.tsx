@@ -1,42 +1,67 @@
 "use client";
+
 import { useState } from "react";
 import type { NavItem } from "@/types";
 import DropDown from "@/components/common/DropDown";
+import clsx from "clsx";
 
 interface NavLinkProps {
   item: NavItem;
+  mobile?: boolean;
+  onClose?: () => void;
 }
 
-const NavLink = ({ item }: NavLinkProps) => {
+const NavLink = ({ item, mobile = false, onClose }: NavLinkProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const hasChildren = !!item.children?.length;
 
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (hasChildren) {
+      e.preventDefault();
+      if (mobile) {
+        setIsOpen(!isOpen);
+      }
+    } else if (mobile) {
+      onClose?.();
+    }
+  };
+
   return (
     <div
-      className="group relative"
-      onMouseEnter={() => hasChildren && setIsOpen(true)}
-      onMouseLeave={() => hasChildren && setIsOpen(false)}
+      className={clsx("group relative", mobile ? "w-full" : "")}
+      onMouseEnter={() => !mobile && hasChildren && setIsOpen(true)}
+      onMouseLeave={() => !mobile && hasChildren && setIsOpen(false)}
     >
       <a
         href={item.path}
-        className={`
-          flex px-2 py-2 text-tx-theme in-[.dropdown-item]:hover:bg-emerald-100 
-          in-[.dropdown-item]:px-4 ${hasChildren ? "cursor-default" : ""}
-        `}
-        onClick={(e) => hasChildren && e.preventDefault()}
+        className={clsx(
+          "flex items-center text-tx-theme hover:text-brand-orange transition-colors",
+          mobile
+            ? "py-3 px-4 border-b border-gray-100 text-lg justify-between"
+            : "px-2 py-2",
+        )}
+        onClick={handleClick}
       >
         {item.title}
-        {hasChildren && <DropDown />}
+
+        {hasChildren && <DropDown isOpen={isOpen} mobile={mobile} />}
       </a>
 
       {hasChildren && isOpen && (
         <div
-          className="
-            absolute left-0 top-full z-50 min-w-60 bg-white shadow-lg rounded-md 
-            border border-gray-200  pt-2 pb-3 animate-fade-in dropdown-item"
+          className={clsx(
+            mobile
+              ? "pl-6 mt-2 space-y-3 bg-gray-50 rounded-md p-3"
+              : "absolute left-0 top-full z-50 min-w-60 bg-white shadow-lg rounded-md border border-gray-200 pt-2 pb-3 animate-fade-in",
+          )}
         >
           {item.children!.map((child) => (
-            <NavLink key={child.title} item={child} />
+            <NavLink
+              key={child.title}
+              item={child}
+              mobile={mobile}
+              onClose={onClose}
+            />
           ))}
         </div>
       )}

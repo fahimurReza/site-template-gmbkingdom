@@ -1,11 +1,28 @@
 import { navItems } from "@/data";
 import NavLink from "./NavLink";
+import clsx from "clsx";
 
-const Navigation = () => {
+interface NavigationProps {
+  mobile?: boolean;
+  onClose?: () => void;
+}
+
+const Navigation = ({ mobile = false, onClose }: NavigationProps) => {
   return (
-    <nav className="flex items-center space-x-2 text-sm font-medium">
+    <nav
+      className={clsx(
+        mobile
+          ? "flex flex-col gap-5 text-base font-medium"
+          : "mr-4 flex items-center space-x-4 text-sm font-medium",
+      )}
+    >
       {navItems.map((item) => (
-        <NavLink key={item.title} item={item} />
+        <NavLink
+          key={item.title}
+          item={item}
+          mobile={mobile}
+          onClose={onClose}
+        />
       ))}
     </nav>
   );
