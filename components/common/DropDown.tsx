@@ -4,7 +4,7 @@ const DropDown = () => {
   return (
     <div className="flex items-center content-center pt-1">
       <Image
-        src="/drop-down.svg"
+        src="/icons/drop-down.svg"
         alt="dropdown-icon"
         width={12}
         height={12}

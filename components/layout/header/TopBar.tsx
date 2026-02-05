@@ -6,7 +6,7 @@ const TopBar = () => {
       <p>Commercial & Residential Concrete</p>
       <div className="flex items-center cursor-pointer">
         <Image
-          src="/phone-icon.svg"
+          src="/icons/phone-icon.svg"
           alt="phone"
           width={16}
           height={16}

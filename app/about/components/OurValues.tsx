@@ -4,25 +4,25 @@ const OurValues = () => {
   const values = [
     {
       title: "Safety First",
-      path: "/safety.svg",
+      path: "/icons/safety.svg",
       description:
         "Industry-leading safety record with comprehensive site-specific safety plans on every project. OSHA-certified supervisors lead every crew with daily safety protocols.",
     },
     {
       title: "Schedule Certainty",
-      path: "/clock.svg",
+      path: "/icons/clock.svg",
       description:
         "Dedicated pour calendars, staged crews, and proactive coordination ensure on-time delivery. One team accountable for your entire project timeline.",
     },
     {
       title: "Quality Commitment",
-      path: "/check.svg",
+      path: "/icons/check.svg",
       description:
         "ACI-certified finishers, in-house QA/QC, and complete testing documentation on every pour. We deliver quality that passes inspection the first time.",
     },
     {
       title: "Transparent Communication",
-      path: "/text.svg",
+      path: "/icons/text.svg",
       description:
         "Daily reports, progress photos, and digital documentation keep your team informed. We integrate with your project management platforms seamlessly.",
     },

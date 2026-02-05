@@ -23,7 +23,7 @@ export default function Logo({
   const finalSize =
     typeof size === "number" ? { w: size, h: size } : sizes[size];
 
-  const logoSrc = variant === "white" ? "/logo-white.svg" : "/logo-color.svg";
+  const logoSrc = variant === "white" ? "/logo/white.svg" : "/logo/color.svg";
 
   return (
     <div className="-ml-1">

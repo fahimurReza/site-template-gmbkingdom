@@ -7,7 +7,7 @@ interface PhoneIconProps {
 export default function PhoneIcon({ className = "" }: PhoneIconProps) {
   return (
     <Image
-      src="/phone-icon.svg"
+      src="/icons/phone-icon.svg"
       alt="phone icon"
       width={20}
       height={20}

@@ -9,15 +9,15 @@ import QuoteForm from "@/components/ui/QuoteForm";
 
 const heroImages = [
   {
-    src: "/hero-image-01.png",
+    src: "/hero/image01.jpg",
     alt: "Frisco Concrete Contractors home image 1",
   },
   {
-    src: "/hero-image-02.png",
+    src: "/hero/image02.jpg",
     alt: "Frisco Concrete Contractors home image 2",
   },
   {
-    src: "/hero-image-03.png",
+    src: "/hero/image03.jpg",
     alt: "Frisco Concrete Contractors home image 3",
   },
 ];

@@ -5,7 +5,7 @@ const HeroSection = () => {
     <section className="relative h-50 flex items-center justify-center overflow-hidden text-white">
       <div className="inset-0 -z-10">
         <Image
-          src="/concrete-resurfacing.jpg"
+          src="/services/concrete-resurfacing.jpg"
           alt="Concretre Patio"
           fill={true}
           className="object-cover object-center"
