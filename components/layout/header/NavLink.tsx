@@ -35,9 +35,9 @@ const NavLink = ({ item, mobile = false, onClose }: NavLinkProps) => {
       <a
         href={item.path}
         className={clsx(
-          "flex items-center text-tx-theme hover:text-brand-orange transition-colors",
+          "flex items-center text-brand-teal-light hover:text-brand-orange transition-colors",
           mobile
-            ? "py-3 px-4 border-b border-gray-100 text-lg justify-between"
+            ? "py-4 px-4 border-b border-gray-100 font-semibold justify-between"
             : "px-2 py-2",
         )}
         onClick={handleClick}
@@ -51,8 +51,9 @@ const NavLink = ({ item, mobile = false, onClose }: NavLinkProps) => {
         <div
           className={clsx(
             mobile
-              ? "pl-6 mt-2 space-y-3 bg-gray-50 rounded-md p-3"
-              : "absolute left-0 top-full z-50 min-w-60 bg-white shadow-lg rounded-md border border-gray-200 pt-2 pb-3 animate-fade-in",
+              ? "pl-6 mt-2 bg-teal-50 rounded-md p-3"
+              : "absolute left-0 top-full z-50 min-w-60 bg-white shadow-lg rounded-lg border",
+            "border-gray-200 pt-2 pb-3 pl-2 animate-fade-in",
           )}
         >
           {item.children!.map((child) => (
