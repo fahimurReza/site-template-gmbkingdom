@@ -4,7 +4,7 @@ const RightArrow = () => {
   return (
     <div className="flex items-center content-center">
       <Image
-        src="/right-arrow.svg"
+        src="/icons/right-arrow.svg"
         alt="RightArrow-icon"
         width={7}
         height={7}
