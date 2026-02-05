@@ -37,7 +37,7 @@ const NavLink = ({ item, mobile = false, onClose }: NavLinkProps) => {
         className={clsx(
           "flex items-center text-brand-teal-light hover:text-brand-orange transition-colors",
           mobile
-            ? "py-4 px-4 border-b border-gray-100 font-semibold justify-between"
+            ? "py-3 px-4 border-b border-gray-100 font-semibold justify-between"
             : "px-2 py-2",
         )}
         onClick={handleClick}
