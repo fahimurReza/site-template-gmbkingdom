@@ -44,7 +44,7 @@ const NavBar = () => {
 
       {/* Mobile Menu Overlay */}
       {isMobileMenuOpen && (
-        <div className="md:hidden absolute top-16 left-0 right-0 bg-white shadow-lg z-40 animate-fade-in">
+        <div className="lg:hidden absolute top-16 left-0 right-0 bg-white shadow-lg z-40 animate-fade-in">
           <div className="base-padding py-2 flex flex-col gap-2">
             <Navigation mobile onClose={() => setIsMobileMenuOpen(false)} />
           </div>
