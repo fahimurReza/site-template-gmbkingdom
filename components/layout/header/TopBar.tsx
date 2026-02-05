@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const TopBar = () => {
   return (
-    <div className="base-padding bg-brand-teal font-medium text-sm text-white h-10 flex justify-between items-center">
-      <p>Commercial & Residential Concrete</p>
-      <div className="flex items-center cursor-pointer">
+    <div className="base-padding bg-brand-teal font-medium text-sm text-white h-10 flex items-center justify-between">
+      <p className="hidden md:block">Commercial & Residential Concrete</p>
+      <div className="flex items-center cursor-pointer ml-auto">
         <Image
           src="/icons/phone-icon.svg"
           alt="phone"
@@ -12,7 +12,7 @@ const TopBar = () => {
           height={16}
           className="mr-2"
         />
-        <p> Call (323) 555-0123</p>
+        <p>Call (323) 555-0123</p>
       </div>
     </div>
   );
