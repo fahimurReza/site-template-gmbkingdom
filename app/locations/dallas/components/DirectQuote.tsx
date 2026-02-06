@@ -23,10 +23,7 @@ const DirectQuote = () => {
                 displayText="Call 469-535-6405"
                 iconClassName="hidden"
               />
-              <Button
-                variant="whiteRound"
-                className="w-54 text-[16px] rounded-3xl!"
-              >
+              <Button variant="whiteRound" className="w-54">
                 Start Your Project
               </Button>
             </div>

@@ -16,12 +16,7 @@ const ReadyToWork = () => {
           coordination plans within 48 hours.
         </p>
         <div className="mt-3 flex gap-6">
-          <Button
-            variant="whiteRound"
-            className="font-medium px-8 rounded-3xl!"
-          >
-            Start Your Project
-          </Button>
+          <Button variant="whiteRound">Start Your Project</Button>
           <CallButton
             variant="secondary"
             phoneNumber="+14695356405"
