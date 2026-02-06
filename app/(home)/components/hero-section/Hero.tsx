@@ -8,18 +8,9 @@ import TrackRecord from "./TrackRecord";
 import QuoteForm from "@/components/ui/QuoteForm";
 
 const heroImages = [
-  {
-    src: "/hero/image01.jpg",
-    alt: "Frisco Concrete Contractors home image 1",
-  },
-  {
-    src: "/hero/image02.jpg",
-    alt: "Frisco Concrete Contractors home image 2",
-  },
-  {
-    src: "/hero/image03.jpg",
-    alt: "Frisco Concrete Contractors home image 3",
-  },
+  { src: "/hero/image01.jpg", alt: "Frisco Concrete Contractors home image 1" },
+  { src: "/hero/image02.jpg", alt: "Frisco Concrete Contractors home image 2" },
+  { src: "/hero/image03.jpg", alt: "Frisco Concrete Contractors home image 3" },
 ];
 
 export default function Hero() {
@@ -29,12 +20,12 @@ export default function Hero() {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % heroImages.length);
     }, 3000);
-
     return () => clearInterval(interval);
   }, []);
 
   return (
-    <section className="relative min-h-[60vh] md:min-h-screen flex items-center justify-center overflow-hidden text-white">
+    <section className="relative min-h-[80vh] md:min-h-screen flex items-center justify-center overflow-hidden text-white">
+      {/* Background images */}
       {heroImages.map((image, index) => (
         <div
           key={image.src}
@@ -45,7 +36,7 @@ export default function Hero() {
           <Image
             src={image.src}
             alt={image.alt}
-            fill={true}
+            fill
             className="object-cover object-center"
             priority={index === 0}
             quality={80}
@@ -54,16 +45,21 @@ export default function Hero() {
         </div>
       ))}
 
+      {/* Overlays */}
       <div className="absolute inset-0 bg-linear-to-r from-brand-teal to-brand-teal/60 -z-10" />
       <div className="absolute inset-0 bg-linear-to-r from-black/60 via-black/10 to-black/10 -z-10" />
 
-      <div className="grid grid-rows-2 gap-14 sm:gap-10 md:gap-6 lg:grid-cols-2 base-padding py-12">
-        <div className="relative z-10 text-left">
+      {/* Content */}
+      <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 base-padding py-12 w-full max-w-7xl mx-auto">
+        {/* Left column */}
+        <div className="text-left space-y-8">
           <Content />
           <CallToAction />
           <TrackRecord />
         </div>
-        <div className="flex lg:justify-end relative z-10">
+
+        {/* Right column – QuoteForm */}
+        <div className="flex justify-center lg:justify-end items-center">
           <QuoteForm
             title="Get a Free Quote"
             subtitle="Share your project scope and we'll deliver a complete proposal within two business days."

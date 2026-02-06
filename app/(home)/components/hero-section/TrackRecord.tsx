@@ -1,7 +1,7 @@
 const TrackRecord = () => {
   return (
     <div>
-      <section className="pt-12 text-white">
+      <section className="pt-8 text-white">
         <div className="mx-auto border-t border-white/20 pt-8 max-w-4xl">
           <div className="grid grid-cols-3 gap-10 text-start">
             <div className="text-center sm:text-left">
