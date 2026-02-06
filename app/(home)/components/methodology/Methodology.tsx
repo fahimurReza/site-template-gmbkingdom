@@ -17,7 +17,7 @@ const Methodology = () => {
         </p>
       </div>
       <div>
-        <div className="mt-14 space-y-16 md:space-y-20 lg:space-y-12">
+        <div className="mt-14 space-y-8 lg:space-y-12">
           {methodologies.map((step, index) => (
             <MethodologyCard key={index} step={step} />
           ))}
