@@ -3,14 +3,14 @@ import Button from "@/components/ui/Button";
 
 const CallToAction = () => {
   return (
-    <div className="flex gap-10 mt-14">
+    <div className="flex flex-col sm:flex-row gap-6 sm:gap-10 mt-10 md:mt-14 items-center justify-center">
       <CallButton
         variant="primary"
-        className="w-64"
+        className="w-full sm:w-64 max-w-xs"
         phoneNumber="+14695356405"
         displayText="(469) 535-6405"
       />
-      <Button variant="transparent" className="w-68">
+      <Button variant="transparent" className="w-full sm:w-68 max-w-xs">
         Learn More
       </Button>
     </div>

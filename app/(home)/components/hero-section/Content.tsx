@@ -13,7 +13,7 @@ const Content = () => {
         </span>
         FRISCO CONCRETE CONTRACTORS
       </div>
-      <h1 className="text-4xl md:text-5xl lg:text-6xl font-semibold my-10 leading-18">
+      <h1 className="text-5xl lg:text-6xl font-semibold my-10 leading-16 lg:leading-18">
         Proffesional Concrete Service for Dallas-Fort Worth
       </h1>
       <p className="text-2xl">
