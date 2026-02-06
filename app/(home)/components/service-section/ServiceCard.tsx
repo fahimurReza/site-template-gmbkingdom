@@ -12,7 +12,7 @@ const ServiceCard = ({ service, className }: ServiceCardProps) => {
   return (
     <main
       className={clsx(
-        "bg-white px-8 py-10 rounded-2xl shadow-md group hover:-translate-y-2",
+        "bg-white px-6 py-8 rounded-2xl shadow-md group hover:-translate-y-2",
         "transition-transform duration-300",
         className,
       )}
@@ -24,17 +24,17 @@ const ServiceCard = ({ service, className }: ServiceCardProps) => {
         )}
       >
         <IconComponent
-          className={`h-8 w-8 text-brand-gray-dark group-hover:text-white 
+          className={`h-9 w-9 text-brand-gray-dark group-hover:text-white 
           transition-colors duration-300`}
         />
       </div>
 
-      <h2 className="text-2xl font-bold text-tx-theme mt-10">{title}</h2>
+      <h2 className="text-[26px] font-bold text-tx-theme mt-10">{title}</h2>
 
-      <p className="text-brand-gray text-sm mt-3">{description}</p>
+      <p className="text-brand-gray text-base mt-3">{description}</p>
 
       {features.length > 0 && (
-        <ul className="mt-5 space-y-3 text-xs text-brand-gray">
+        <ul className="mt-5 space-y-3 text-sm text-brand-gray">
           {features.map((feature, idx) => (
             <li key={idx} className="flex items-start gap-3 font-medium">
               <div className="mt-1 flex h-2 w-2 shrink-0 rounded-full bg-brand-orange/60" />
