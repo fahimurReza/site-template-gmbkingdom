@@ -57,7 +57,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-linear-to-r from-brand-teal to-brand-teal/60 -z-10" />
       <div className="absolute inset-0 bg-linear-to-r from-black/60 via-black/10 to-black/10 -z-10" />
 
-      <div className="grid grid-rows-2 lg:grid-cols-2 base-padding py-12">
+      <div className="grid grid-rows-2 gap-14 sm:gap-10 md:gap-6 lg:grid-cols-2 base-padding py-12">
         <div className="relative z-10 text-left">
           <Content />
           <CallToAction />
