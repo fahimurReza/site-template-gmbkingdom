@@ -26,9 +26,9 @@ const ReadyTo = () => {
       </p>
       <div className="flex gap-10 mt-16">
         <CallButton
-          phoneNumber="(469) 535-6405"
-          buttonText="Get a Direct Quote"
-          iconClassName="rotate-90"
+          variant="primary"
+          phoneNumber="+14695356405"
+          displayText="Get a Direct Quote"
         />
         <Button variant="transparent" className="w-68">
           Learn More
@@ -41,7 +41,7 @@ const ReadyTo = () => {
           className="mt-8 flex gap-6 items-start group cursor-pointer"
         >
           <div className="p-3 bg-white/20 rounded-xl">
-            <PhoneIcon className=" w-7 aspect-square rotate-90 group-hover:text-brand-orange transition-colors duration-300" />
+            <PhoneIcon className=" w-7 aspect-square group-hover:text-brand-orange transition-colors duration-300" />
           </div>
           <div className="items-center content-center">
             <h2 className="uppercase text-[10px] font-semibold tracking-[2px]">

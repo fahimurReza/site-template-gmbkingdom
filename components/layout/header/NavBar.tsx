@@ -33,7 +33,7 @@ const NavBar = () => {
     <main className="base-padding h-18 flex items-center bg-white shadow-sm sticky top-0 z-50">
       <div className="flex justify-between items-center w-full">
         <a href="/">
-          <Logo className="h-55 w-55 md:h-60 md:w-60" />
+          <Logo className="w-55 md:w-60" />
         </a>
 
         {/* Desktop: Navigation + Quote Button (≥ 1024px) */}
@@ -103,9 +103,9 @@ const NavBar = () => {
                 <div className="mt-auto pt-8 px-2 flex flex-col gap-4 justify-center">
                   <CallButton
                     className="w-full text-base!"
-                    iconClassName="rotate-90 w-5"
-                    phoneNumber="(469) 535-6405"
-                    buttonText="Call (469) 535-6405"
+                    iconClassName="w-5"
+                    phoneNumber="+14695356405"
+                    displayText="Call (469) 535-6405"
                   />
                   <Button variant="secondary" className="text-base! py-0.5">
                     Get a Quote

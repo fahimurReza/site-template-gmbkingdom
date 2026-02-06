@@ -4,7 +4,7 @@ interface PhoneIconProps {
   className?: string;
 }
 
-export default function PhoneIcon({ className = "" }: PhoneIconProps) {
+export default function PhoneIcon({ className }: PhoneIconProps) {
   return (
     <Image
       src="/icons/phone-icon.svg"

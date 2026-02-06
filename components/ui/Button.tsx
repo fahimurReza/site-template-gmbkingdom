@@ -6,6 +6,7 @@ type ButtonVariant =
   | "secondary"
   | "transparent"
   | "white"
+  | "whiteRound"
   | "whiteSmall"
   | "secondarySmall";
 
@@ -36,11 +37,18 @@ const variantStyles: Record<ButtonVariant, string> = {
     hover:bg-white/20 
   `,
   white: `
-    bg-white
+    bg-white 
     px-3 py-2
     text-brand-teal
     hover:bg-brand-gray-bg
-    border border-gray-300
+    border border-gray-300 
+  `,
+  whiteRound: `
+    bg-white text-[16px]!
+    px-8 py-2 font-medium!
+    text-brand-teal
+    hover:bg-brand-gray-bg
+    border border-gray-300 rounded-3xl!
   `,
   whiteSmall: `
     bg-white

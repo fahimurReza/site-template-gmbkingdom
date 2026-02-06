@@ -10,7 +10,7 @@ const Footer = () => {
     <main className="bg-brand-teal">
       <div className="grid grid-cols-10 base-padding py-16">
         <div className="col-span-3 text-white">
-          <Logo variant="white" className="h-50 w-50 md:h-55 md:w-55" />
+          <Logo variant="white" className="w-55 md:w-55" />
           <ContactInfo />
         </div>
         <div className="col-span-2 text-white/70">

@@ -19,12 +19,15 @@ const DirectQuote = () => {
           <div className="col-span-3 flex items-center justify-end min-h-full">
             <div className="flex gap-6">
               <CallButton
-                phoneNumber="(469) 535-6405"
-                buttonText="Call 469-535-6405"
-                className="bg-brand-teal hover:bg-brand-teal-light text-[16px] rounded-3xl! px-8!"
+                variant="secondary"
+                phoneNumber="+14695356405"
+                displayText="Call 469-535-6405"
                 iconClassName="hidden"
               />
-              <Button variant="white" className="w-54 text-[16px] rounded-3xl!">
+              <Button
+                variant="whiteRound"
+                className="w-54 text-[16px] rounded-3xl!"
+              >
                 Start Your Project
               </Button>
             </div>

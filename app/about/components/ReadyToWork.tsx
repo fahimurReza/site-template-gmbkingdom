@@ -16,13 +16,16 @@ const ReadyToWork = () => {
           coordination plans within 48 hours.
         </p>
         <div className="mt-3 flex gap-6">
-          <Button variant="white" className="font-medium! px-8 rounded-3xl!">
+          <Button
+            variant="whiteRound"
+            className="font-medium px-8 rounded-3xl!"
+          >
             Start Your Project
           </Button>
           <CallButton
-            phoneNumber="(469) 535-6405"
-            buttonText="Call 469-535-6405"
-            className="bg-brand-teal hover:bg-brand-teal-light text-[16px] rounded-3xl! px-8! w-fit! font-medium!"
+            variant="secondary"
+            phoneNumber="+14695356405"
+            displayText="Call 469-535-6405"
             iconClassName="hidden"
           />
         </div>

@@ -17,13 +17,11 @@ const ReadyToSmall = () => {
         </div>
         <div className="col-span-2 flex items-center justify-center min-h-full">
           <div className="flex gap-6">
-            <Button variant="white" className="w-54 text-[16px] rounded-3xl!">
-              Get a Quote
-            </Button>
+            <Button variant="whiteRound">Get a Quote</Button>
             <CallButton
-              phoneNumber="(469) 535-6405"
-              buttonText="Call (469) 535-6405"
-              className="bg-brand-teal hover:bg-brand-teal-light text-[16px] rounded-3xl! px-8!"
+              variant="secondary"
+              phoneNumber="+14695356405"
+              displayText="Call (469) 535-6405"
               iconClassName="hidden"
             />
           </div>

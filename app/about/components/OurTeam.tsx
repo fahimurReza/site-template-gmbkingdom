@@ -80,10 +80,9 @@ const OurTeam = () => {
       </div>
       <div className="mt-12 flex justify-center">
         <CallButton
-          phoneNumber="(469) 535-6405"
-          buttonText="Get Connected Now"
-          iconClassName="rotate-90 w-5"
-          className="bg-brand-teal hover:bg-brand-teal-light text-[16px] rounded-3xl! px-8! w-fit! font-medium!"
+          variant="secondaryLarge"
+          phoneNumber="+14695356405"
+          displayText="Call 469-535-6405"
         />
       </div>
     </section>

@@ -21,7 +21,7 @@ const FormAndInfo = () => {
           <div className="mt-14 flex flex-col gap-8">
             <div className="inline-flex gap-6 ">
               <div className="flex h-11 w-11 items-center justify-center rounded-full bg-brand-teal text-white">
-                <PhoneIcon className="h-5 w-5 rotate-90" />
+                <PhoneIcon className="h-5 w-5" />
               </div>
               <div className="flex flex-col">
                 <h2 className="text-[17px] font-semibold text-brand-teal-light">
