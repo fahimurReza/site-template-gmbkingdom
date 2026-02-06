@@ -10,7 +10,9 @@ interface QuoteFormProps {
 const QuoteForm = ({ title, subtitle }: QuoteFormProps) => {
   return (
     <div className="p-8 bg-white text-brand-gray-dark rounded-2xl shadow-lg max-w-lg w-full h-auto">
-      <h2 className="text-3xl font-bold mb-4 text-center">{title}</h2>
+      <h2 className="text-3xl font-bold mb-4 text-brand-teal-light text-center">
+        {title}
+      </h2>
       <p className="text-brand-gray text-sm">{subtitle}</p>
 
       <form className="my-8">

@@ -29,7 +29,9 @@ const ServiceCard = ({ service, className }: ServiceCardProps) => {
         />
       </div>
 
-      <h2 className="text-[26px] font-bold text-tx-theme mt-10">{title}</h2>
+      <h2 className="text-[26px] font-bold text-brand-teal-light mt-10">
+        {title}
+      </h2>
 
       <p className="text-brand-gray text-base mt-3">{description}</p>
 
