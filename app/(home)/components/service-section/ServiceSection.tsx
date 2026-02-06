@@ -11,16 +11,13 @@ const ServiceSection = () => {
       <h1 className="text-5xl font-bold text-brand-teal">
         Frisco Concrete Solutions
       </h1>
-      <div className="flex justify-between">
-        <p className="text-lg text-brand-gray mt-5 max-w-3xl">
-          We provide comprehensive concrete services for both residential and
-          commercial projects, ensuring quality and durability in every job.
-        </p>
-        <div className="content-end">
-          <ServiceButton />
-        </div>
-      </div>
-      <div className="mt-16 grid grid-cols-3 gap-8">
+
+      <p className="text-lg text-brand-gray mt-5 max-w-3xl">
+        We provide comprehensive concrete services for both residential and
+        commercial projects, ensuring quality and durability in every job.
+      </p>
+
+      <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((service, index) => (
           <ServiceCard key={index} service={service} />
         ))}
