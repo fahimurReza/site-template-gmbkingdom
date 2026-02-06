@@ -44,7 +44,7 @@ const MethodologyCard = ({ step, className }: MethodologyCardProps) => {
 
         <div className="flex-1 pt-4">
           <p
-            className={`text-[26px] font-bold text-brand-teal-light transition-colors 
+            className={`text-[26px] font-bold text-brand-teal-light leading-8 transition-colors 
             duration-300 group-hover:text-brand-orange`}
           >
             {title}
