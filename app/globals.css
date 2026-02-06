@@ -3,7 +3,7 @@
 :root {
   --foreground: #171717;
   --background: #ffffff;
-  --base-padding: 1rem; /* 16px - mobile */
+  --base-padding: 1.25rem; /* 16px - mobile */
   --brand-teal: oklch(0.277 0.046 192.524); /* teal-950 – dark base */
   --brand-teal-light: oklch(0.386 0.063 188.416); /* teal-900  – hover/button */
   --brand-orange: oklch(0.646 0.222 41.116); /* orange-600 – main accent */
