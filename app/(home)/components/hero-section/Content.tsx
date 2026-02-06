@@ -13,12 +13,12 @@ const Content = () => {
         </span>
         FRISCO CONCRETE CONTRACTORS
       </div>
-      <h1 className="text-5xl lg:text-6xl font-semibold my-10 leading-16 lg:leading-18">
+      <h1 className="text-5xl lg:text-6xl font-bold lg:font-semibold my-10 leading-16 lg:leading-18">
         Proffesional Concrete Service for Dallas-Fort Worth
       </h1>
-      <p className="text-2xl">
-        One contract. One team. Full accountability from bid to final punch.
-      </p>
+      <h2 className="text-2xl font-medium">
+        One contract. One team. Accountable for everything.
+      </h2>
       <div className="mt-8">
         <div className="flex gap-4 items-center mb-2">
           <CheckCircle />
