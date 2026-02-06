@@ -5,7 +5,7 @@ const Content = () => {
     <main>
       <div
         className={`flex items-center gap-4 border border-white/20 rounded-full
-         bg-white/10 px-6 py-1 text-xs tracking-[3px] font-semibold w-fit uppercase`}
+         bg-white/10 px-3 md:px-6 py-1 text-xs tracking-[2px] md:tracking-[3px] font-semibold w-fit uppercase`}
       >
         <span className="relative flex h-2.5 w-2.5">
           <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand-orange opacity-75"></span>
