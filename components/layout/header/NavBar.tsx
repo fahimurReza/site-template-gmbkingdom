@@ -47,7 +47,7 @@ const NavBar = () => {
           <HeaderCallButton number="+13235550123" />
           <button
             onClick={toggleMobileMenu}
-            className="p-2 text-brand-teal hover:text-brand-orange transition"
+            className="py-2 pl-2 text-brand-teal hover:text-brand-orange transition"
             aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
           >
             {isMobileMenuOpen ? (
