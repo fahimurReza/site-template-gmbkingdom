@@ -33,7 +33,7 @@ const NavBar = () => {
     <main className="base-padding h-18 flex items-center bg-white shadow-sm sticky top-0 z-50">
       <div className="flex justify-between items-center w-full">
         <a href="/">
-          <Logo className="h-50 w-50 md:h-55 md:w-55" />
+          <Logo className="h-55 w-55 md:h-60 md:w-60" />
         </a>
 
         {/* Desktop: Navigation + Quote Button (≥ 1024px) */}
