@@ -19,29 +19,29 @@ const Content = () => {
       <h2 className="text-2xl font-medium">
         One contract. One team. Accountable for everything.
       </h2>
-      <div className="mt-8">
-        <div className="flex gap-4 items-center mb-2">
-          <CheckCircle />
-          <span>
+      <ul className="mt-8 space-y-4">
+        <li className="flex gap-3 sm:gap-4 items-start">
+          <CheckCircle className="h-5 w-5 sm:h-6 sm:w-6 shrink-0 mt-1 text-brand-teal" />
+          <span className="text-sm sm:text-base">
             Direct contracts with property owners - single point of
             accountability
           </span>
-        </div>
-        <div className="flex gap-4 items-center mb-2">
-          <CheckCircle />
-          <span>
+        </li>
+        <li className="flex gap-3 sm:gap-4 items-start">
+          <CheckCircle className="h-5 w-5 sm:h-6 sm:w-6 shrink-0 mt-1 text-brand-teal" />
+          <span className="text-sm sm:text-base">
             Full-service delivery: permitting, engineering coordination, and
             QA/QC included
           </span>
-        </div>
-        <div className="flex gap-4 items-center mb-2">
-          <CheckCircle />
-          <span>
+        </li>
+        <li className="flex gap-3 sm:gap-4 items-start">
+          <CheckCircle className="h-5 w-5 sm:h-6 sm:w-6 shrink-0 mt-1 text-brand-teal" />
+          <span className="text-sm sm:text-base">
             ACI-certified crews for warehouses, retail, healthcare, and
             industrial facilities
           </span>
-        </div>
-      </div>
+        </li>
+      </ul>
     </main>
   );
 };
