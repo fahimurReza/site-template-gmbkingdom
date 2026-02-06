@@ -29,7 +29,7 @@ const ServiceCard = ({ service, className }: ServiceCardProps) => {
         />
       </div>
 
-      <h2 className="text-[26px] font-bold text-brand-teal-light mt-10">
+      <h2 className="text-[26px] font-bold text-brand-teal-light leading-8 mt-10">
         {title}
       </h2>
 
