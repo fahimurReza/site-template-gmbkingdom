@@ -1,10 +1,10 @@
 import PhoneIcon from "@/components/icons/PhoneIcon";
 
-interface CallButtonProps {
+interface HeaderCallButtonProps {
   number: string;
 }
 
-const CallButton = ({ number }: CallButtonProps) => {
+const HeaderCallButton = ({ number }: HeaderCallButtonProps) => {
   return (
     <a
       href={`tel:${number}`}
@@ -17,4 +17,4 @@ const CallButton = ({ number }: CallButtonProps) => {
   );
 };
 
-export default CallButton;
+export default HeaderCallButton;
