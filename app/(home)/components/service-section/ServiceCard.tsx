@@ -37,7 +37,7 @@ const ServiceCard = ({ service, className }: ServiceCardProps) => {
         <ul className="mt-5 space-y-3 text-sm text-brand-gray">
           {features.map((feature, idx) => (
             <li key={idx} className="flex items-start gap-3 font-medium">
-              <div className="mt-1 flex h-2 w-2 shrink-0 rounded-full bg-brand-orange/60" />
+              <div className="mt-1.5 flex h-2.5 w-2.5 shrink-0 rounded-full bg-brand-orange/60" />
               <span>{feature}</span>
             </li>
           ))}
