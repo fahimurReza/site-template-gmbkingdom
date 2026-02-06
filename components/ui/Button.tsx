@@ -53,14 +53,14 @@ const variantStyles: Record<ButtonVariant, string> = {
   whiteSmall: `
     bg-white
     px-3 py-2 w-34
-    text-tx-theme text-xs
+    text-tx-theme text-sm
     hover:bg-brand-gray-bg
     border border-gray-200
   `,
   secondarySmall: `
     bg-brand-teal
     px-3 py-2 w-34
-    text-white text-xs
+    text-white text-sm
     hover:bg-brand-teal-light
     border-teal-800/40
   `,
