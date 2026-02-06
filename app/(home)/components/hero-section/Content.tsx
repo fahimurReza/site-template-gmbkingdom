@@ -22,21 +22,21 @@ const Content = () => {
       <ul className="mt-8 space-y-4">
         <li className="flex gap-3 sm:gap-4 items-start">
           <CheckCircle className="h-6 w-6 shrink-0 text-brand-teal" />
-          <span className="text-sm sm:text-base">
+          <span className="text-base">
             Direct contracts with property owners - single point of
             accountability
           </span>
         </li>
         <li className="flex gap-3 sm:gap-4 items-start">
           <CheckCircle className="h-6 w-6 shrink-0 text-brand-teal" />
-          <span className="text-sm sm:text-base">
+          <span className="text-base">
             Full-service delivery: permitting, engineering coordination, and
             QA/QC included
           </span>
         </li>
         <li className="flex gap-3 sm:gap-4 items-start">
           <CheckCircle className="h-6 w-6 shrink-0 text-brand-teal" />
-          <span className="text-sm sm:text-base">
+          <span className="text-base">
             ACI-certified crews for warehouses, retail, healthcare, and
             industrial facilities
           </span>
