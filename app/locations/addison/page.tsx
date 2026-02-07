@@ -11,7 +11,7 @@ const page = () => {
     <div>
       <HeroSection />
       <PageContent />
-      <section className="bg-brand-gray-bg base-padding pt-6">
+      <section className="bg-gray-50 base-padding pt-6">
         <FullProject />
         <PopularServices />
         <CommonProject />

@@ -26,7 +26,7 @@ const FAQSection = () => {
   ];
   return (
     <section className="base-padding py-4 bg-gray-50">
-      <div className="rounded-2xl min-h-100 shadow-2xl px-9 py-7 bg-gray-50">
+      <div className="rounded-2xl shadow-2xl p-6 sm:p-8 bg-white">
         <h2 className="text-2xl font-semibold text-brand-teal-light">
           Frequently Asked Questions
         </h2>
