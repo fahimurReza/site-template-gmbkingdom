@@ -3,8 +3,8 @@ import FactorCard from "./FactorCard";
 
 const PriceGuide = () => {
   return (
-    <main className="base-padding py-18 bg-brand-gray-bg min-h-160">
-      <h2 className="text-5xl font-bold leading-14 text-brand-teal-light">
+    <main className="base-padding py-12 sm:py-18 bg-brand-gray-bg min-h-160">
+      <h2 className="text-4xl font-bold text-brand-teal-light leading-11">
         2026 Frisco Concrete Price Guide
       </h2>
 
