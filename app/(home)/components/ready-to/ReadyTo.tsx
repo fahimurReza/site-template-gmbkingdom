@@ -17,7 +17,7 @@ const ReadyTo = () => {
         </span>
         Direct contacts available
       </div>
-      <h2 className="mt-8 text-[56px] font-semibold leading-18">
+      <h2 className="mt-8 text-5xl lg:text-6xl font-bold lg:font-semibold leading-16 lg:leading-18">
         Ready to work with a Frisco Concrete Contractor?
       </h2>
       <p className="text-xl mt-6 max-w-3xl">
