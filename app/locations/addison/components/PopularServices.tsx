@@ -8,7 +8,7 @@ const PopularServices = () => {
           Popular Services in Dallas
         </h2>
         <div className="grid grid-cols-12 mt-4 bg-brand-gray-bg border border-gray-200 rounded-2xl px-5 py-3">
-          <div className="col-span-11 flex flex-col">
+          <div className="col-span-10 pb-1 flex flex-col">
             <h2 className="text-lg font-semibold text-brand-teal">
               Concrete Foundations
             </h2>
@@ -18,12 +18,12 @@ const PopularServices = () => {
               soil mitigation strategies.
             </p>
           </div>
-          <div className="col-span-1 content-center text-end text-brand-orange/60 text-2xl font-bold">
+          <div className="col-span-2 content-start text-end text-brand-orange/60 text-2xl font-bold">
             # 1
           </div>
         </div>
         <div className="grid grid-cols-12 mt-4 bg-brand-gray-bg border border-gray-200 rounded-2xl px-5 py-3">
-          <div className="col-span-11 flex flex-col">
+          <div className="col-span-10 pb-1 flex flex-col">
             <h2 className="text-lg font-semibold text-brand-teal">
               Tilt-Wall Construction
             </h2>
@@ -32,12 +32,12 @@ const PopularServices = () => {
               drives demand for tilt-wall warehouses and distribution centers.
             </p>
           </div>
-          <div className="col-span-1 content-center text-end text-brand-orange/60 text-2xl font-bold">
+          <div className="col-span-2 content-start text-end text-brand-orange/60 text-2xl font-bold">
             # 2
           </div>
         </div>
         <div className="grid grid-cols-12 mt-4 bg-brand-gray-bg border border-gray-200 rounded-2xl px-5 py-3">
-          <div className="col-span-11 flex flex-col">
+          <div className="col-span-10 pb-1 flex flex-col">
             <h2 className="text-lg font-semibold text-brand-teal">
               Parking Lots
             </h2>
@@ -47,12 +47,12 @@ const PopularServices = () => {
               compliance.
             </p>
           </div>
-          <div className="col-span-1 content-center text-end text-brand-orange/60 text-2xl font-bold">
+          <div className="col-span-2 content-start text-end text-brand-orange/60 text-2xl font-bold">
             # 3
           </div>
         </div>
         <div className="grid grid-cols-12 mt-4 bg-brand-gray-bg border border-gray-200 rounded-2xl px-5 py-3">
-          <div className="col-span-11 flex flex-col">
+          <div className="col-span-10 pb-1 flex flex-col">
             <h2 className="text-lg font-semibold text-brand-teal">
               Structural Slabs
             </h2>
@@ -61,7 +61,7 @@ const PopularServices = () => {
               areas require elevated structural slabs and podium decks.
             </p>
           </div>
-          <div className="col-span-1 content-center text-end text-brand-orange/60 text-2xl font-bold">
+          <div className="col-span-2 content-start text-end text-brand-orange/60 text-2xl font-bold">
             # 4
           </div>
         </div>
