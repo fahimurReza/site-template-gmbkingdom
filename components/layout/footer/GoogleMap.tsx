@@ -7,7 +7,7 @@ const GoogleMap = () => {
         Regional Office
       </header>
 
-      <div className="w-full mt-12 aspect-[4/2.5] max-h-125 rounded-xl overflow-hidden shadow-lg">
+      <div className="w-full mt-6 sm:mt-12 aspect-[4/2.5] max-h-125 rounded-xl overflow-hidden shadow-lg">
         <iframe
           title="Regional Office Location"
           width="600"

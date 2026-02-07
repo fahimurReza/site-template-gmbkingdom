@@ -4,18 +4,14 @@ import RightArrow from "@/components/icons/RightArrow";
 const Locations = () => {
   return (
     <main>
-      <header className="uppercase text-xs font-semibold tracking-[4px]">
+      <header className="uppercase text-xs font-semibold tracking-[4px] text-start">
         Service Area
       </header>
-      <div className="mt-12 font-semibold text-sm flex flex-col gap-2">
+      <div className="mt-6 sm:mt-12 font-semibold text-sm flex flex-col gap-2">
         {locations.map((location, index) => (
-          <a
-            key={index}
-            href={location.path}
-            className="flex gap-2 hover:scale-110 duration-200"
-          >
+          <a key={index} href={location.path} className="flex gap-2">
             <RightArrow className="w-1.25 text-brand-orange" />
-            <p>{location.title}</p>
+            <p className="text-start">{location.title}</p>
           </a>
         ))}
       </div>
