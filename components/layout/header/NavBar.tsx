@@ -99,15 +99,15 @@ const NavBar = () => {
               <div className="base-padding py-6 flex flex-col gap-6">
                 <Navigation mobile onClose={() => setIsMobileMenuOpen(false)} />
 
-                {/* Optional: repeated call button at bottom for convenience */}
+                {/* Call to Action */}
                 <div className="mt-auto pt-8 px-2 flex flex-col gap-4 justify-center">
                   <CallButton
-                    className="w-full text-base!"
+                    className="w-full text-base! h-12"
                     iconClassName="w-5"
                     phoneNumber="+14695356405"
                     displayText="Call (469) 535-6405"
                   />
-                  <Button variant="secondary" className="text-base! py-0.5">
+                  <Button variant="secondary" className="text-base! h-12">
                     Get a Quote
                   </Button>
                 </div>
