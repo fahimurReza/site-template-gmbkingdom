@@ -1,7 +1,7 @@
 const PageContent = () => {
   return (
-    <section className="base-padding py-12 text-brand-gray-dark">
-      <div className="flex flex-col gap-3">
+    <section className="base-padding py-10 sm:py-12 text-brand-gray-dark">
+      <div className="flex flex-col gap-3 px-2">
         <p>
           Commercial parking lots represent a significant infrastructure
           investment that directly impacts your property's functionality and
