@@ -17,7 +17,7 @@ const ReadyTo = () => {
         </span>
         Direct contacts available
       </div>
-      <h2 className="mt-8 text-5xl lg:text-6xl font-bold lg:font-semibold leading-16 lg:leading-18">
+      <h2 className="mt-8 text-5xl sm:text-6xl font-bold sm:font-semibold leading-14 lg:leading-18 max-w-4xl">
         Ready to work with a Frisco Concrete Contractor?
       </h2>
       <p className="text-xl mt-6 max-w-3xl">
@@ -26,7 +26,7 @@ const ReadyTo = () => {
       </p>
 
       {/* Call to Action */}
-      <div className="mt-16 flex flex-col sm:flex-row gap-6 sm:gap-10 items-center justify-center">
+      <div className="mt-16 flex flex-col sm:flex-row gap-6 sm:gap-10 items-center justify-center sm:justify-start">
         <CallButton
           variant="primary"
           className="w-full sm:w-64 max-w-xs"
