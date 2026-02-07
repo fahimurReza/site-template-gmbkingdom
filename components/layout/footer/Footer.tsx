@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
 
         {/* Expartise – full width on mobile, col-span-2 on desktop */}
-        <div className="col-span-1 sm:col-span-2 lg:col-span-4 text-white/70">
+        <div className="col-span-1 sm:col-span-2 lg:col-span-4 text-white/90">
           <div className="grid grid-cols-2 gap-6 md:gap-10 lg:gap-12">
             {/* Expartise */}
             <div className="text-center sm:text-left">
