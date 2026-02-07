@@ -11,7 +11,7 @@ export default function Logo({ variant = "color", className = "" }: LogoProps) {
   const logoSrc = variant === "white" ? "/logo/white.svg" : "/logo/color.svg";
 
   return (
-    <div className="-ml-1">
+    <div className="-ml-1 flex justify-center">
       <Image
         src={logoSrc}
         alt="Company Logo"

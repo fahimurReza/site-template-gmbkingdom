@@ -4,7 +4,7 @@ import ClockIcon from "@/components/icons/ClockIcon";
 
 const ContactInfo = () => {
   return (
-    <div className="mt-18">
+    <div className="mt-2">
       <a
         href="tel:+13332343454"
         className="mt-6 flex gap-6 items-center cursor-pointer"

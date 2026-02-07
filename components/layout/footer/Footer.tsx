@@ -8,21 +8,33 @@ import CopyRight from "./CopyRight";
 const Footer = () => {
   return (
     <main className="bg-brand-teal">
-      <div className="grid grid-cols-10 base-padding py-16">
-        <div className="col-span-3 text-white">
-          <Logo variant="white" className="w-55 md:w-55" />
+      {/* Main footer content */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-10 gap-10 lg:gap-12 base-padding py-12 md:py-16">
+        {/* Logo + ContactInfo – full width on mobile, col-span-3 on desktop */}
+        <div className="col-span-1 sm:col-span-2 lg:col-span-3 text-white flex flex-col gap-6">
+          <div className="w-full flex">
+            <Logo variant="white" className="w-7/10 sm:w-60" />
+          </div>
           <ContactInfo />
         </div>
-        <div className="col-span-2 text-white/70">
+
+        {/* Expartise – full width on mobile, col-span-2 on desktop */}
+        <div className="col-span-1 sm:col-span-1 lg:col-span-2 text-white/70 text-center sm:text-left">
           <Expartise />
         </div>
-        <div className="col-span-2 text-white/70">
+
+        {/* Locations – full width on mobile, col-span-2 on desktop */}
+        <div className="col-span-1 sm:col-span-1 lg:col-span-2 text-white/70 text-center sm:text-left">
           <Locations />
         </div>
-        <div className="col-span-3 text-white/70">
+
+        {/* GoogleMap – full width on mobile, col-span-3 on desktop */}
+        <div className="col-span-1 sm:col-span-2 lg:col-span-3 text-white/70">
           <GoogleMap />
         </div>
       </div>
+
+      {/* Copyright – always full width */}
       <CopyRight />
     </main>
   );
