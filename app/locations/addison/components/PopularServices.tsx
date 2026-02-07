@@ -4,15 +4,15 @@ const PopularServices = () => {
   return (
     <section className="mt-8">
       <div className="rounded-2xl shadow-2xl p-6 sm:p-8 bg-gray-50">
-        <h2 className="text-3xl font-semibold text-brand-teal">
+        <h2 className="text-2xl font-semibold text-brand-teal">
           Popular Services in Dallas
         </h2>
         <div className="grid grid-cols-12 mt-4 bg-brand-gray-bg border border-gray-200 rounded-2xl px-5 py-3">
           <div className="col-span-11 flex flex-col">
-            <h2 className="text-xl font-semibold text-brand-teal">
+            <h2 className="text-lg font-semibold text-brand-teal">
               Concrete Foundations
             </h2>
-            <p className="text-brand-gray text-base pt-1.5 max-w-5xl">
+            <p className="text-brand-gray text-sm pt-1.5 max-w-5xl">
               Dallas's expansive clay soils require engineered foundation
               solutions. We deliver complete foundation packages with proper
               soil mitigation strategies.
