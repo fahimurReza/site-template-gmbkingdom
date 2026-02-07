@@ -7,7 +7,7 @@ interface FactorCardProps {
 
 const FactorCard = ({ className }: FactorCardProps) => {
   return (
-    <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+    <div className="mt-6 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
       {factors.map((item, i) => (
         <div
           key={i}
@@ -16,7 +16,8 @@ const FactorCard = ({ className }: FactorCardProps) => {
             className,
           )}
         >
-          <div className="flex items-start gap-5">
+          <div className="flex items-start gap-4">
+            <div className="mt-2.25 flex h-3 w-3 shrink-0 rounded-full bg-brand-orange/80" />
             <div className="flex-1">
               <h3 className="text-lg font-semibold text-brand-teal mb-2">
                 {item.factor}

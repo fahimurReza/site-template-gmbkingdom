@@ -18,7 +18,7 @@ const PriceGuide = () => {
         * Prices are 2026 estimates and subject to change based on concrete
         ready-mix shortages or fuel costs.
       </p>
-      <FactorCard className="mt-10" />
+      <FactorCard />
     </main>
   );
 };

@@ -14,11 +14,11 @@ const PriceCard = ({ className }: PriceCardProps) => {
       )}
     >
       <header
-        className={`py-5 grid grid-cols-1 gap-3 sm:grid-cols-[3fr_2fr_4fr] 
+        className={`py-5 hidden sm:grid grid-cols-1 gap-3 sm:grid-cols-[3fr_2fr_4fr] 
           sm:gap-18 sm:items-start text-lg font-semibold text-brand-teal`}
       >
         <p>Project</p>
-        <p>Price (Per S.F.)</p>
+        <p>Price (PSF)</p>
         <p>Includes</p>
       </header>
       {prices.map((project, i) => (
@@ -30,6 +30,9 @@ const PriceCard = ({ className }: PriceCardProps) => {
           <div className="font-medium text-brand-gray-dark">{project.type}</div>
           <div className="font-semibold text-brand-orange whitespace-nowrap">
             {project.price}
+            <span className="inline-block sm:hidden font-medium pl-1 text-brand-gray">
+              psf
+            </span>
           </div>
           <div className="text-brand-gray text-sm sm:text-base">
             {project.includes}
