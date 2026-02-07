@@ -1,7 +1,7 @@
 import QuoteForm from "@/components/ui/QuoteForm";
 import PhoneIcon from "@/components/icons/PhoneIcon";
 import EmailIcon from "@/components/icons/EmailIcon";
-import SimpleClockIcon from "@/components/icons/SimpleClockIcon";
+import ClockIcon from "@/components/icons/ClockIcon";
 import LocationIcon from "@/components/icons/LocationIcon";
 
 const FormAndInfo = () => {
@@ -63,7 +63,7 @@ const FormAndInfo = () => {
             </div>
             <div className="inline-flex gap-6 ">
               <div className="flex h-11 w-11 items-center justify-center rounded-full bg-brand-teal text-white">
-                <SimpleClockIcon className="h-5 w-5" />
+                <ClockIcon className="h-5 w-5" />
               </div>
               <div className="flex flex-col">
                 <h2 className="text-[17px] font-semibold text-brand-teal-light">

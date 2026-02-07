@@ -1,6 +1,6 @@
-import PhoneCircleIcon from "@/components/icons/PhoneCircleIcon";
-import LocationIcon from "@/components/icons/LocationIcon";
+import PhoneIcon from "@/components/common/PhoneIcon";
 import ClockIcon from "@/components/icons/ClockIcon";
+import LocationIcon from "@/components/icons/LocationIcon";
 
 const ContactInfo = () => {
   return (
@@ -9,14 +9,18 @@ const ContactInfo = () => {
         href="tel:+13332343454"
         className="mt-6 flex gap-6 items-center cursor-pointer"
       >
-        <PhoneCircleIcon className="w-7 aspect-square" />
+        <div className="bg-white/10 p-2 rounded">
+          <PhoneIcon className="w-6 aspect-square" />
+        </div>
         <div className="items-center content-center">
           <p className="text-[20px] font-medium">333-234-3454</p>
         </div>
       </a>
 
       <a className="mt-6 flex gap-6 items-center cursor-pointer">
-        <ClockIcon className="w-7 aspect-square" />
+        <div className="bg-white/10 p-2 rounded">
+          <ClockIcon className="w-6 aspect-square" stroke="10" />
+        </div>
         <div className="items-center content-center">
           <p className="text-[16px] font-medium">
             Monday to Saturday
@@ -26,7 +30,10 @@ const ContactInfo = () => {
       </a>
 
       <a className="mt-6 flex gap-6 items-center cursor-pointer">
-        <LocationIcon className="w-7 aspect-square" />
+        <div className="bg-white/10 p-2 rounded">
+          <LocationIcon className="w-6 aspect-square" />
+        </div>
+
         <div className="items-center content-center">
           <p className="text-[16px] font-medium">
             279 Main St, Suite 128,
