@@ -13,7 +13,7 @@ const WhyBest = () => {
         </span>
         Locally Owned & Operated
       </div>
-      <h2 className="text-4xl font-bold text-brand-teal-light leading-12 mt-8">
+      <h2 className="text-4xl font-bold text-brand-teal-light leading-11 mt-8">
         Why We Are the Best Concrete Contractor in Frisco
       </h2>
 
