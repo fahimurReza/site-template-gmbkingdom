@@ -22,7 +22,7 @@ const ReadyToSmall = () => {
           <div className="flex flex-col items-center sm:flex-row gap-4 sm:gap-6 w-full sm:w-auto">
             <Button
               variant="whiteRound"
-              className="w-5/6 sm:w-64 px-8 py-3 text-base sm:text-sm"
+              className="w-5/6 sm:w-64 px-8 py-3 text-base sm:text-sm h-12"
             >
               Get a Quote
             </Button>
@@ -31,7 +31,7 @@ const ReadyToSmall = () => {
               phoneNumber="+14695356405"
               displayText="Call (469) 535-6405"
               iconClassName="hidden"
-              className="w-5/6! sm:w-64 px-8 py-3 text-base sm:text-sm"
+              className="w-5/6! sm:w-64 px-8 py-3 text-base sm:text-sm h-12"
             />
           </div>
         </div>

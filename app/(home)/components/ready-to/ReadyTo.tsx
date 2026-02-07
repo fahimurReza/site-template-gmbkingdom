@@ -29,11 +29,11 @@ const ReadyTo = () => {
       <div className="mt-16 flex flex-col sm:flex-row gap-6 sm:gap-10 items-center justify-center sm:justify-start">
         <CallButton
           variant="primary"
-          className="w-full sm:w-64 max-w-xs"
+          className="w-full sm:w-64 max-w-xs h-12"
           phoneNumber="+14695356405"
           displayText="Get a Direct Quote"
         />
-        <Button variant="transparent" className="w-full sm:w-68 max-w-xs">
+        <Button variant="transparent" className="w-full sm:w-68 max-w-xs h-12">
           Learn More
         </Button>
       </div>

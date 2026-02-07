@@ -31,7 +31,7 @@ const variantStyles: Record<ButtonVariant, string> = {
     border-teal-800/40
   `,
   transparent: `
-    bg-white/10 
+    bg-white/20 
     text-white px-6 py-3
     border border-white/10 
     hover:bg-white/20 
