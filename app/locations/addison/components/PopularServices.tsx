@@ -2,7 +2,7 @@ import React from "react";
 
 const PopularServices = () => {
   return (
-    <section className="pt-8">
+    <section className="mt-8">
       <div className="rounded-2xl shadow-2xl p-6 sm:p-8 bg-gray-50">
         <h2 className="text-2xl font-semibold text-brand-teal">
           Popular Services in Dallas
