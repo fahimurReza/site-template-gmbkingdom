@@ -3,7 +3,7 @@ import CallButton from "@/components/ui/CallButton";
 
 const ReadyToSmall = () => {
   return (
-    <main className="base-padding py-12 md:py-14 bg-brand-gray-bg">
+    <main className="base-padding py-12 bg-brand-gray-bg">
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-12 items-center">
         {/* Left column – text */}
         <div className="w-full lg:w-5/8 text-center lg:text-left">

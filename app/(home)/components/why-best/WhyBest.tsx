@@ -2,7 +2,7 @@ import BestCard from "./BestCard";
 
 const WhyBest = () => {
   return (
-    <main className="base-padding py-12 sm:py-18 min-h-160">
+    <main className="base-padding py-12 sm:py-16">
       <div
         className={`flex items-center gap-4 border border-brand-gray/20 rounded-full
          bg-brand-gray/10 px-6 py-1 text-xs tracking-[3px] font-semibold w-fit uppercase`}

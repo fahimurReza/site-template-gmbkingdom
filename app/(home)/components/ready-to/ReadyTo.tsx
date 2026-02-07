@@ -6,7 +6,7 @@ import LocationIcon from "@/components/icons/LocationIcon";
 
 const ReadyTo = () => {
   return (
-    <main className="base-padding py-18 bg-brand-teal text-white">
+    <main className="base-padding py-12 sm:py-16 bg-brand-teal text-white">
       <div
         className={`flex items-center gap-4 border border-white/20 rounded-full
          bg-white/10 px-6 py-1 text-xs tracking-[2px] md:tracking-[3px] font-semibold w-fit uppercase`}
