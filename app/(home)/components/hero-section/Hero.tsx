@@ -50,7 +50,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-linear-to-r from-black/60 via-black/10 to-black/10 -z-10" />
 
       {/* Content */}
-      <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 base-padding py-12 pb-20 md:pb-12 w-full max-w-7xl mx-auto">
+      <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2 gap-16 base-padding py-12 pb-20 md:pb-12 w-full">
         {/* Left column */}
         <div className="text-left space-y-8">
           <Content />
