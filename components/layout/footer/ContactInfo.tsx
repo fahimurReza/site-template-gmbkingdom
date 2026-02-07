@@ -9,7 +9,7 @@ const ContactInfo = () => {
         href="tel:+13332343454"
         className="mt-6 flex gap-6 items-center cursor-pointer"
       >
-        <div className="bg-white/15 p-2 rounded">
+        <div className="bg-white/15 p-2.25 rounded-xl">
           <PhoneIcon className="w-5 aspect-square" />
         </div>
         <div className="items-center content-center">
@@ -18,7 +18,7 @@ const ContactInfo = () => {
       </a>
 
       <a className="mt-6 flex gap-6 items-center cursor-pointer">
-        <div className="bg-white/15 p-2 rounded">
+        <div className="bg-white/15 p-2.25 rounded-xl">
           <ClockIcon className="w-5 aspect-square" stroke="10" />
         </div>
         <div className="items-center content-center">
@@ -30,7 +30,7 @@ const ContactInfo = () => {
       </a>
 
       <a className="mt-6 flex gap-6 items-center cursor-pointer">
-        <div className="bg-white/15 p-2 rounded">
+        <div className="bg-white/15 p-2.25 rounded-xl">
           <LocationIcon className="w-5 aspect-square" />
         </div>
 
