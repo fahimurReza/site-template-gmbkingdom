@@ -1,7 +1,7 @@
 const Capabilities = () => {
   return (
-    <section className="base-padding pt-2 pb-8 bg-brand-gray-bg">
-      <h2 className="text-2xl font-semibold text-brand-teal">
+    <section className="base-padding pt-2 pb-8 bg-gray-50">
+      <h2 className="text-2xl font-semibold text-brand-teal-light">
         Project capabilities
       </h2>
       <p className="mt-4 text-brand-gray-dark">

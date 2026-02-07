@@ -25,18 +25,18 @@ const FAQSection = () => {
     },
   ];
   return (
-    <section className="base-padding py-4 bg-brand-gray-bg">
+    <section className="base-padding py-4 bg-gray-50">
       <div className="rounded-2xl min-h-100 shadow-2xl px-9 py-7 bg-gray-50">
-        <h2 className="text-2xl font-semibold text-brand-teal">
+        <h2 className="text-2xl font-semibold text-brand-teal-light">
           Frequently Asked Questions
         </h2>
         <div className="mt-2">
           {asked.map((item, index) => (
             <div key={index} className="max-w-6xl pt-5">
-              <p className="text-lg font-semibold text-brand-teal">
+              <p className="text-lg font-semibold text-brand-teal-light">
                 {item.question}
               </p>
-              <p className="mt-2 text-brand-gray">{item.answer}</p>
+              <p className="mt-2 text-brand-gray-dark">{item.answer}</p>
             </div>
           ))}
         </div>

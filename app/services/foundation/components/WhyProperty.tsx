@@ -5,11 +5,11 @@ const WhyProperty = () => {
     "ADA-compliant ramps, striping, and signage",
   ];
   return (
-    <section className="base-padding py-8 bg-brand-gray-bg">
-      <h2 className="text-2xl font-semibold text-brand-teal">
+    <section className="base-padding py-8 bg-gray-50">
+      <h2 className="text-2xl font-semibold text-brand-teal-light">
         Why property owners choose us
       </h2>
-      <div className="mt-8 grid grid-cols-2 gap-x-4 gap-y-4">
+      <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-x-4 gap-y-4">
         {whyCards.map((card, index) => (
           <div
             key={index}

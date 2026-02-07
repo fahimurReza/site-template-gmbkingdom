@@ -6,7 +6,7 @@ const HeroSection = () => {
       <div className="inset-0 -z-10">
         <Image
           src="/services/cocnrete-driveway.png"
-          alt="Concretre Patio"
+          alt="Cocnrete Driveway"
           fill={true}
           className="object-cover object-center"
           quality={80}
