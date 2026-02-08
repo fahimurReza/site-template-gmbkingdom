@@ -1,6 +1,6 @@
 const HeroSection = () => {
   return (
-    <section className="overflow-hidden">
+    <section className="relative overflow-hidden">
       <div className="absolute inset-0 bg-linear-to-r from-teal-950 to-teal-700 -z-10" />
       <div className="absolute inset-0 bg-linear-to-r from-black/40 to-transparent -z-10" />
 
