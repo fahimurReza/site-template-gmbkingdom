@@ -7,7 +7,7 @@ const Models = () => {
   ];
   return (
     <section className="base-padding bg-brand-gray-bg">
-      <div className="grid grid-cols-4 py-6">
+      <div className="grid gap-y-6 grid-cols-2 sm:grid-cols-4 py-6">
         {model.map((item, index) => (
           <div
             key={index}
